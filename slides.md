@@ -1,6 +1,6 @@
 ---
 theme: default
-title: How to steal AI’s job
+title: How to steal A.I.’s job
 transition: fade
 mdc: true
 layout: image
@@ -8,8 +8,9 @@ image: './test-crunch.jpg'
 ---
 
 <!--
+- I told my wife I want to start the presentation with a joke, and when I asked her what kind of joke, she sent me this photo
 - photo from last year
-- I spoke to test automation engineers and I was giving a whole speech on test automation practices and mistakes
+- I spoke about test automation specifically on automation practices and mistakes
 - I worked for a company called Replay (see the hat) and on the stage I showed how you can debug your application
 - Replay is this tool that allows you to record the whole runtime of the application and examine the code line by line
 - it was all very technical, and I enjoyed the heck of it
@@ -28,7 +29,10 @@ backgroundSize: contain
 - unfortunately I got laid off
 - I was devastated
 - I lost the job I loved
-- I now had to fear about the future, about my family, my four kids and my wife, we have a mortgage I need to pay, I just booked a holiday for us, which is a very pricey thing for family of this size
+- I now had to fear about the future, 
+  - about my family, my four kids and my wife, 
+  - we have a mortgage I need to pay, 
+  - I just booked a holiday for us, which is a very pricey thing for family of this size
 - I also thought that Replay was a groundbreaking innovation that was absolutely needed in the world
 - I hated the fact that we are giving up on that mission
 - the problem 
@@ -49,18 +53,29 @@ layout: cover
 <!--
 - and I absolutely hated that, I was angry
 - what do you mean AI?
-- here we are, creating this amazing engineering marvel, these revolutionaly developer tools and you’re just going to throw all that away and and focus on AI whatever that means?
+- here we are, creating this amazing engineering marvel, 
+  - these revolutionaly developer tools and 
+  - you’re just going to throw all that away and and focus on AI whatever that means?
+-->
+
+---
+layout: cover
+---
+
+# Reflection
+
+<!-- 
 - but I took a deep breath, took a step back, dealt with the reality of it all and reflected
-- whenever things make me angry or when I think something is just stupid, I try think about the other perspectives
-- because the thing is, everyone thinks they are smart and the other side is dumb
+- because the thing is, when things get emotional, it’s easy to think I’m smart and the other side is dumb
+- I tried to excercise the practice
+  - if there’s a thing that makes me angry or when I think something is just stupid, I try think about the other perspectives
 - so I thought I need to figure this out
 - why have these people in Silicon valey that I worked for decided to focus on AI? Why now? What are they thinking? What do they see that I don’t?
 - it takes a little mental practice to ask this questions and to admit - hey maybe I’m wrong, and maybe they are right
 - it felt really hard
   - I didn’t feel like this AI hype is something I should be part of
-- after all...
+- after all... 
 -->
-
 ---
 layout: cover
 ---
@@ -69,7 +84,8 @@ what the hell am I supposed to do with this A.I. stuff anyway?
 
 <!-- 
 - **what the hell am I supposed to do with this A.I. stuff anyway?**
-- maybe you also felt that way, or maybe you still feel this way
+- maybe you also felt that way, 
+  - or maybe you still feel this way
 - what even is this A.I. thing and how does it affect me?
 - I was laid off in July last yeat year - this was year and a half since chatGPT got released and while 
   - it was a fun thing that could help write silly poems 
@@ -78,7 +94,7 @@ what the hell am I supposed to do with this A.I. stuff anyway?
   - and I could not do any useful work with it
 - I thought it’s not really worth spending too much time on and I genuinely thought I shouldn’t be concerned with it
 - after all... **I’m a test engineer!**
-- I test stuff
+- I test stuff and I take a big pride in that!
   - all you linkedin influencers can go AI this AI that, at the end of the day, it cannot do anything useful
   - you cannot vibe code your way into quality software
   - if you’re going to generate a ton of code guess who’s going to test that?
@@ -96,10 +112,12 @@ layout: cover
 
 <!-- 
 - it just didn’t happen the way I imagined it would
-- and I wasn’t alone
-- there were thousands of engineers and testers being laid off
+- and I wasn’t alone 
+  - my friends over at my previous job got laid off, 
+  - I read about layoffs practically every day
+  - there were thousands of engineers and testers being laid off
 - it wasn’t that some AI robot was put in my chair and filled in my position
-- I needed to start paying attention
+- I needed to start paying attention, because this thing is real
 - and I suggest you start paying attention too if you haven’t already, 
   - because although I’m standing here being in this unique position, I can tell you, my story isn’t unique
 - and I’m not saying this because I want you to be scared
@@ -107,7 +125,6 @@ layout: cover
   - I want you to be aware 
   - I want you to be ready
 - things are happening, and they are happening now
-
 -->
 
 ---
@@ -145,13 +162,14 @@ layout: center
 - what that means
   - more pressure on companies to be profitable, 
   - VC investors are more careful, which means they invest less
-- when companies have money, they can hire more people, ergo we have more job postings, if they don’t - we have this slide down in job postings
+- when companies have money, 
+  - they can hire more people, ergo we have more job postings, 
+  - if they don’t - we have this slide down in job postings
 - what this means for us as individuals is that 
   - it is harder to find a job, you are expected to work more, ideally for less money, 
   - if you are a junior you’re in trouble, if you are an expensive senior, you might be in trouble too
-- this was mostly caused by the interest rates going up
+- all of this was mostly caused by the interest rates going up
   - but then in the middle of the fallout of all this, another thing happens
-
 -->
 
 ---
@@ -171,14 +189,29 @@ layout: center
 - and some companies saw a real opportunity, while some were pressured down by investors
 - but either way, as a result many companies decided to become AI companies
   - in process, some decide to cut staff to make room for this new AI revolution
-- a good example of this is Meta - laid off nearly one fourth of it’s workforce (11K in 2022, 10K in 2023)
-  - and you’d think that when a company lays off so many people, it’s on the edge of existence right?
-  - actually no. beginning of 2024, Meta announced their record earnings
-  - the company has trippled their earnings
-  - from 2023 to 2024, Meta has put 723 Billion to their market capital - that’s three Netflixes 
-  - not all of this of course did not happen because of AI, but this February Meta announced another round of layoffs, which is directly tied to AI - out with the low performes, and hire AI experts
 -->
 
+---
+layout: center
+---
+
+# A.I. revolution
+
+<!-- 
+- a good example of this is Meta 
+  - laid off nearly one fourth of it’s workforce (11K in 2022, 10K in 2023)
+  - and you’d think that when a company lays off so many people, it’s on the edge of existence right?
+  - actually no. beginning of 2024, Meta announced their record earnings
+- Meta has trippled their earnings
+  - from 2023 to 2024, Meta has put 723 Billion to their market capital 
+  - o put that into perspective that’s three Netflixes over the period of one year
+- not all of this of course did not happen because of AI, 
+  - but this February Meta announced another round of layoffs, 
+  - which is directly tied to AI 
+  - out with the low performes, and hire AI experts instead
+  - Meta is going full throttle with this
+  - if you don’t have AI knowledge, you’re not Meta material
+-->
 ---
 layout: center
 ---
@@ -186,31 +219,80 @@ layout: center
 # Job transformation
 
 - hybrid, remote and smaller teams
-- AI-powered tooling
-- writing code is different
-- software development becoming more accessible
 
 <!-- 
 - the third part of this perfect storm, is the job transformation - it’s the combination of first two factors
 - pandemic has changed how we work, we now have hybrid and remote teams
 - and many companies have realized that they can work more effectively with less people
 - now since investor money is not flowing as it did before, many companies now work with smaller teams 
-- e.g. Bluesky or Linear seem to be successful and are now realizing that hyper-scaling and getting more people on board is maybe not the only way to go forward
+- e.g. Bluesky or Linear seem to be successful and 
+  - are now realizing that hyper-scaling and getting more people on board is maybe not the only way to go forward
+  
+-->
+
+---
+layout: center
+---
+
+- AI-powered tooling
+<!-- 
 - another factor that is transforming the way we work is of course A.I. we now have tooling such as
 - cursor, copilot, windsurf,... basically every IDE is now A.I. powered
 - we see rise of agentic A.I., wide adoption of MCP servers
-- writing code is different - Anthropic’s CEO Dario Amodei famously said two weeks ago that in 3 6 months, 90% of the code will be AI-generated and within 12 months it’s going to be essentially all the code
-- he’s a CEO of AI company, he has to say that, but we have other people saying this too - Garry Tan, the CEO of Y combinator says pretty much the same, while CEO of Replit Amjad Masad said last week that you shouldn’t even learn to code
+-->
+
+---
+layout: center
+---
+
+- writing code is different
+
+
+<!-- 
+
+- writing code is different 
+- Anthropic’s CEO Dario Amodei famously said two weeks ago that 
+  - in 3-6 months, 90% of the code will be AI-generated 
+  - and within 12 months it’s going to be essentially all the code
+- he’s a CEO of AI company, he has to say that, but we have other people saying this too 
+- Garry Tan, the CEO of Y combinator says pretty much the same, 
+- CEO of Replit Amjad Masad said last week that you shouldn’t even learn to code
+
+-->
+
+---
+layout: center
+---
+
+- software development becoming more accessible
+
+<!-- 
 - this sounds crazy, but see that software development is becoming more accessible to non-developers
 - at this point, you probably hear the term "vibe-coding"
-  - a term first mentioned by Andrej Karpathy, where you essentially switch the driver seat with AI, and just let it do it’s thing, generate code, forget the code even exists, just give in to the vibes and create your app
-  - and in a room full of testers I can almost feel the tension
+- a term first mentioned by Andrej Karpathy, 
+  - where you essentially switch the driver seat with AI, and just let it do it’s thing, 
+  - generate code, forget the code even exists, 
+  - just give in to the vibes and create your app
+-->
+
+---
+layout: center
+description: (duplicate)
+---
+
+- software development becoming more accessible
+
+<!-- 
+- and in a room full of testers I can almost feel the tension
   - oh boy that’s not going to end well, how good can code created like this be?
-  - I will choose to answer this with a question
+- I will choose to answer this with a question
   - how good is the code written today?
-  - at this point consulted and seen the code of tens of different companies and you’d be surprised at the quality of code of some companies that earn millions in revenues
-- the point I’m making, is that there are legit businesses built on questionable code quality and there are more and more people entering the tech world without knowing how to code - that’s just the reality of it
-  
+- at this point consulted and seen the code of tens of different companies and 
+  - you’d be surprised at the quality of code of some companies that earn millions in revenues
+- the point I’m making, is that 
+  - there are legit businesses built on questionable code quality 
+  - and there are more and more people entering the tech world without knowing how to code 
+- that’s just the reality of it 
 -->
 
 ---
@@ -224,23 +306,13 @@ layout: center
 - job transformation
 
 <!-- 
-- so these are the changes we are facing
-- we are losing our jobs, it’s hard to find a new one and AI is achieving more power every day whether we talk about AI model, the way it’s being adopted in companies or the in the society in general
-- but knowing all of this - I keep asking myself the same question
-- and I feel maybe you are asking this question as well
--->
-
-
----
-layout: cover
----
-# I am a Test engineer!
-what the hell am I supposed to do with this A.I. stuff anyway?
-
-<!-- 
-- you’d be right to point out that I haven’t really answered this
-- so I’m going to try and fix that and try to provide some answers
-- or what I think about what might be the answers, so that you can leave this conference with a little bit of hope
+- so these are the changes that we are facing
+- we are living through a perfect storm that’s changing everything
+- although we wouldn’t believe it, A.I. is affecting our jobs and some of us are even losing it
+- so the question is - what can we do? how do we get our jobs back?
+- I want to provide some answers
+- or suggestions that I think might be the answers
+  - I want you to leave this conference with a little bit of hope
 - and I’ll split this again into three parts and give some advice for each part
 -->
 
@@ -250,28 +322,25 @@ layout: cover
 
 # What do to
 
-- how to navigate through AI as a test engineer
+- how to navigate through the A.I. space as a test engineer
 - what are the skill you posses today that can help you
 - how to practically apply your knowledge
 
 <!-- 
 - first, we’ll take a look at how you can navigate all the AI stuff as a test engineer
 - then we’ll take a look at the skillset of a tester and talk about all the stuff you already posses today and I’ll show you how not only you can survive, but how you can actually thrive
-- and finally we’ll take a look at some practical application
+- and finally we’ll take a look at what you can do today to be successful
 -->
 
 ---
 layout: cover
 ---
 
-# Question time
+# Navigating A.I. space as a test engineer
+## Question time
 
 <!-- 
-- answer please and don’t be afraid to raise your hand, it’s actually going to make it more awkward if there are zero hands up for this question
-- who in this room does not use AI at their job daily?
-  - raise your hand if there was a day when you didn’t need it, didn’t use it
-- another question: who feels like they have not been able to keep up with all the AI news?
-- 
+- who feels like they have not been able to keep up with all the AI news?
 - if you feel like everything is moving too fast, you are not alone
 - ít seems like every day there’s some ground breaking revolution happening in AI
 - just last week we had new image model from open AI
@@ -285,7 +354,10 @@ layout: cover
 layout: cover
 ---
 
-# Highlight reel effect
+# Navigating A.I. space as a test engineer
+## Highlight reel effect
+
+![highlight reel effect](./highlight-reel-effect.png){class="w-40% h-auto"}
 
 <!-- 
 - there’s something called the highlight reel effect
@@ -294,17 +366,16 @@ layout: cover
 - but our brains don’t seem to process that too well and make us feel like we are missing out
 - same thing might be happening to us in relation to AI and the speed of it’s development
 - we are seeing how AI is doing crazier and crazier stuff every day
-- and it really looks like the end is near
-- I’d like to assure you, it’s not like that
-- for a moment forget about CEOs making their wild claims 
-- it’s OK to be late to the hype observe, orient decide and act
+- but here’s something that you maybe don’t hear every day 
+  - in fact, you probably keep hearing the opposite
 -->
 
 ---
 layout: cover
 ---
 
-# It’s ok to be late on A.I. trends
+# Navigating A.I. space as a test engineer
+## It’s ok to be late on A.I. trends
 
 <!-- 
 - I don’t want you to completely ignore A.I. 
@@ -323,17 +394,60 @@ layout: cover
 layout: cover
 ---
 
-# AGI lie
+# My advice: Don’t try to be first, but be aware
 
 <!-- 
-- sewell
-- agi not coming anytime soon https://www.youtube.com/watch?v=Wl44OMJBXWw
+- so my advice is: Don’t try to be first, but be aware
+- there’s also another good reason to follow this advice
+-->
+
+---
+layout: cover
+---
+
+# Navigating A.I. space as a test engineer
+## LLM companies are pushing a lie
+
+<!-- 
+- because right now, LLM companies are pushing a lie
+- and that lie is that AGI (artificial general intelligence is right around the corner)
 - models are not getting better
+
+- agi not coming anytime soon https://www.youtube.com/watch?v=Wl44OMJBXWw
+-->
+
+---
+layout: cover
+---
+
+# Navigating A.I. space as a test engineer
+## LLM companies are pushing a lie
+
+<!-- 
+- when I recently said this on the internet I receieved a couple of colorful comments
+- I’m actually citing Steve Sewell from Builder.io
+- and to be clear, I’m not denying future innovation, but instead talking about how that innovation happens
+- large language models have peaked and there’s aactually evidence to support that
+-->
+
+---
+layout: cover
+---
+
+<!-- 
+- this is a benchmark score comparison of different LLMs
 - LLM perform really badly with longer contexts https://huggingface.co/datasets/amodaresi/NoLiMa https://x.com/maximelabonne/status/1890018729389359307
 - more specialized hardware
 - more specialized software
-- more specialized tools (MCP)
-- advice: pay attention to the stuff that is being used, not to the stuff that is being advertised
+- more specialized tools (MCP) -->
+
+---
+layout: cover
+---
+
+# My advice: pay attention to the stuff that is being used, not to the stuff that is being advertised
+<!-- 
+
 -->
 
 ---
