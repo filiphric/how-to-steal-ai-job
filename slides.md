@@ -398,71 +398,24 @@ layout: cover
 
 <!-- 
 - so my advice is: Don’t try to be first, but be aware
-- there’s also another good reason to follow this advice
 -->
 
----
-layout: cover
----
-
-# Navigating A.I. space as a test engineer
-## LLM companies are pushing a lie
-
-<!-- 
-- because right now, LLM companies are pushing a lie
-- and that lie is that AGI (artificial general intelligence is right around the corner)
-- models are not getting better
-
-- agi not coming anytime soon https://www.youtube.com/watch?v=Wl44OMJBXWw
--->
 
 ---
 layout: cover
 ---
 
-# Navigating A.I. space as a test engineer
-## LLM companies are pushing a lie
-
-<!-- 
-- when I recently said this on the internet I receieved a couple of colorful comments
-- I’m actually citing Steve Sewell from Builder.io
-- and to be clear, I’m not denying future innovation, but instead talking about how that innovation happens
-- large language models have peaked and there’s aactually evidence to support that
--->
-
----
-layout: cover
----
-
-<!-- 
-- this is a benchmark score comparison of different LLMs
-- LLM perform really badly with longer contexts https://huggingface.co/datasets/amodaresi/NoLiMa https://x.com/maximelabonne/status/1890018729389359307
-- more specialized hardware
-- more specialized software
-- more specialized tools (MCP) -->
-
----
-layout: cover
----
-
-# My advice: pay attention to the stuff that is being used, not to the stuff that is being advertised
-<!-- 
-
--->
-
----
-layout: cover
----
-
-# Your skills today are a superpower
+# You possess many skills that are required for the age of A.I.
 
 <!-- 
 - my second advice would be to deepen your expertise
-- there are skill you possess which make you very well equipped for the AI future
-- heuristics -> prompting
-- but there’s a chance that your job is not going to be called "tester" or "test engineer"
-- dona sarkar 
-- advice - identify your skill and apply it
+  - it’s becoming more important in the age of AI, not less
+- I’m going to cite from Dona Sarkar’s talk I hear last year
+- because she pointed out that there are lot of skills you have today, that will be needed in the age of AI
+  - validation skills - ensuring that a system or product functions as expected
+  - Bias Detection - QA professionals are great at identifying potential issues and edge cases
+  - Problem Definition and Solution Identification 
+  - red-teaming mentality - being able to identify risks - how many of you think of security when we talk about AI?
 -->
 
 
@@ -470,10 +423,23 @@ layout: cover
 layout: cover
 ---
 
-# your skills are becoming more important not less
+![](./ai-jobs.png)
+<!-- 
+- there’s also an interesting trend that seem to suggest that AI jobs are on the rise
+- the curves on this graph look kinda similar to the one I showed earlier
+- this shows just the subset of AI jobs in software development sector
+- there’s a chance that your job is not going to be called "tester" or "test engineer", but the skills will be needed
+- but one thing is for sure
+-->
+
+--- 
+layout: cover
+---
+
+# The need for excellence is not going anywhere
 
 <!-- 
-- pit of death, plateau of death
+- The need for excellence is not going anywhere
 -->
 
 ---
@@ -483,10 +449,16 @@ layout: cover
 # How to practically apply your knowledge
 
 <!-- 
-- we are testers, we try stuff, I suggest you take the same approach
+- but if you’re not in the mood for jumping into your next AI job, I want to show you how you can use AI today
+- let’s take a look at a test automation problem and see if we can solve it in couple of minutes
 - convert tests from cy to pw, add selectors
-- run tests and fix them if there’s an issue (MCP)
 -->
+
+---
+layout: cover
+---
+
+# Demo
 
 ---
 layout: cover
@@ -502,6 +474,15 @@ layout: cover
 - this is what I did too when I got laid off last year as the company that I worked for shifted to A.I.
 - I decided to explore this world, find my own way and my own place
 - I’m not abandoning my test engineer mindset, I’m just expanding it with new knowledge
-- the funny thing is, I got my job back
+
+- and to finish it off, there’s actually a funny ending in my story
+- I got my job back
 - on Monday I’m starting as a contractor back at Replay, and I will be teaching the community about A.I. and ways to implement it for creating your app
+- and I’m going to continue on to teach the wonderful community of testers
 -->
+
+---
+layout: cover
+---
+
+# Thank you
