@@ -3,11 +3,6 @@ theme: default
 title: How to steal AI’s job
 transition: fade
 mdc: true
----
-
-# How to steal AI’s job
-
----
 layout: image
 image: './test-crunch.jpg'
 ---
@@ -180,8 +175,8 @@ layout: center
   - and you’d think that when a company lays off so many people, it’s on the edge of existence right?
   - actually no. beginning of 2024, Meta announced their record earnings
   - the company has trippled their earnings
-  - from 2023 to 2024, Meta has put three Netflixes to their market capital
-  - all of this of course did not happen because of AI, but this February Meta announced another round of layoffs, which is directly tied to AI - out with the low performes, and hire AI experts
+  - from 2023 to 2024, Meta has put 723 Billion to their market capital - that’s three Netflixes 
+  - not all of this of course did not happen because of AI, but this February Meta announced another round of layoffs, which is directly tied to AI - out with the low performes, and hire AI experts
 -->
 
 ---
@@ -208,6 +203,14 @@ layout: center
 - he’s a CEO of AI company, he has to say that, but we have other people saying this too - Garry Tan, the CEO of Y combinator says pretty much the same, while CEO of Replit Amjad Masad said last week that you shouldn’t even learn to code
 - this sounds crazy, but see that software development is becoming more accessible to non-developers
 - at this point, you probably hear the term "vibe-coding"
+  - a term first mentioned by Andrej Karpathy, where you essentially switch the driver seat with AI, and just let it do it’s thing, generate code, forget the code even exists, just give in to the vibes and create your app
+  - and in a room full of testers I can almost feel the tension
+  - oh boy that’s not going to end well, how good can code created like this be?
+  - I will choose to answer this with a question
+  - how good is the code written today?
+  - at this point consulted and seen the code of tens of different companies and you’d be surprised at the quality of code of some companies that earn millions in revenues
+- the point I’m making, is that there are legit businesses built on questionable code quality and there are more and more people entering the tech world without knowing how to code - that’s just the reality of it
+  
 -->
 
 ---
@@ -221,10 +224,10 @@ layout: center
 - job transformation
 
 <!-- 
-- looking back at all of this reasons why the situation is not the same as it was in 2019
-- I keep asking myself the same question
+- so these are the changes we are facing
+- we are losing our jobs, it’s hard to find a new one and AI is achieving more power every day whether we talk about AI model, the way it’s being adopted in companies or the in the society in general
+- but knowing all of this - I keep asking myself the same question
 - and I feel maybe you are asking this question as well
-
 -->
 
 
@@ -232,21 +235,17 @@ layout: center
 layout: cover
 ---
 # I am a Test engineer!
-what the hell?
+what the hell am I supposed to do with this A.I. stuff anyway?
 
 <!-- 
-- I was asking myself this question
-- ok situation is changing, but what am I supposed to do about all this
-- AI is taking my jobe it seems like I cannot stop it
-- but also - it feels like it’s moving too fast
-- ít seems like every day there’s some ground breaking revolution happening in AI
-- just last week we had new image model from open AI
-- we got deepseek, anthropic, gemini, grok pushing new models what seem like every day
-- feel like missed the train
+- you’d be right to point out that I haven’t really answered this
+- so I’m going to try and fix that and try to provide some answers
+- or what I think about what might be the answers, so that you can leave this conference with a little bit of hope
+- and I’ll split this again into three parts and give some advice for each part
 -->
 
 ---
-layout: center
+layout: cover
 ---
 
 # What do to
@@ -255,6 +254,33 @@ layout: center
 - what are the skill you posses today that can help you
 - how to practically apply your knowledge
 
+<!-- 
+- first, we’ll take a look at how you can navigate all the AI stuff as a test engineer
+- then we’ll take a look at the skillset of a tester and talk about all the stuff you already posses today and I’ll show you how not only you can survive, but how you can actually thrive
+- and finally we’ll take a look at some practical application
+-->
+
+---
+layout: cover
+---
+
+# Question time
+
+<!-- 
+- answer please and don’t be afraid to raise your hand, it’s actually going to make it more awkward if there are zero hands up for this question
+- who in this room does not use AI at their job daily?
+  - raise your hand if there was a day when you didn’t need it, didn’t use it
+- another question: who feels like they have not been able to keep up with all the AI news?
+- 
+- if you feel like everything is moving too fast, you are not alone
+- ít seems like every day there’s some ground breaking revolution happening in AI
+- just last week we had new image model from open AI
+- we got deepseek, anthropic, gemini, grok pushing new models what seem like every day
+- and if you look on linkedin or other social media, you might feel like everyone is doing cool stuff with AI
+- you might feel like you missed the train
+- I want to assure you, that you are probably not missing out
+-->
+
 ---
 layout: cover
 ---
@@ -262,5 +288,106 @@ layout: cover
 # Highlight reel effect
 
 <!-- 
-- falsified realities: that everyone else is living happy and perfect lifestyles
- -->
+- there’s something called the highlight reel effect
+- it’s this sense of falsified reality - a feeling that everyone else is living happy and perfect life
+- when in reality, we only see what people want to show and edit all the bad stuff
+- but our brains don’t seem to process that too well and make us feel like we are missing out
+- same thing might be happening to us in relation to AI and the speed of it’s development
+- we are seeing how AI is doing crazier and crazier stuff every day
+- and it really looks like the end is near
+- I’d like to assure you, it’s not like that
+- for a moment forget about CEOs making their wild claims 
+- it’s OK to be late to the hype observe, orient decide and act
+-->
+
+---
+layout: cover
+---
+
+# It’s ok to be late on A.I. trends
+
+<!-- 
+- I don’t want you to completely ignore A.I. 
+- but jumping from AI hype to AI hype is just not healthy
+- you’ll get overwhelmed and it will be hard to learn anything
+- I still think you should learn and keep an eye on the general trends
+- you can practice something called OODA loop which is a decision-making model developed by United States Air Force
+- this allowed Air force pilots to quickly act in combat following the four steps
+  - observe, orient, decide, act
+  - if you simply jump on every hype train, you’ll be jumping between the top two all the time
+  - but actually spending some mental energy on orienting, studying the situation, you’ll be able to decide better and act better
+  - if it’s good for fighter jet pilots it’s good for you too
+-->
+
+---
+layout: cover
+---
+
+# AGI lie
+
+<!-- 
+- sewell
+- agi not coming anytime soon https://www.youtube.com/watch?v=Wl44OMJBXWw
+- models are not getting better
+- LLM perform really badly with longer contexts https://huggingface.co/datasets/amodaresi/NoLiMa https://x.com/maximelabonne/status/1890018729389359307
+- more specialized hardware
+- more specialized software
+- more specialized tools (MCP)
+- advice: pay attention to the stuff that is being used, not to the stuff that is being advertised
+-->
+
+---
+layout: cover
+---
+
+# Your skills today are a superpower
+
+<!-- 
+- my second advice would be to deepen your expertise
+- there are skill you possess which make you very well equipped for the AI future
+- heuristics -> prompting
+- but there’s a chance that your job is not going to be called "tester" or "test engineer"
+- dona sarkar 
+- advice - identify your skill and apply it
+-->
+
+
+--- 
+layout: cover
+---
+
+# your skills are becoming more important not less
+
+<!-- 
+- pit of death, plateau of death
+-->
+
+---
+layout: cover
+---
+
+# How to practically apply your knowledge
+
+<!-- 
+- we are testers, we try stuff, I suggest you take the same approach
+- convert tests from cy to pw, add selectors
+- run tests and fix them if there’s an issue (MCP)
+-->
+
+---
+layout: cover
+---
+
+# Stealing A.I.’s job
+
+<!-- 
+- the truth is, if you want to steal A.I.’s job, it’s not going to happen the same way we thought A.I. is going to take our jobs
+- A.I. is here to stay and we’ll have to learn to live with it
+- your job as a tester is going to transform, and to stay on top, you will really have to change with it
+- embrace that world and you’ll probably find a way to enjoy it
+- this is what I did too when I got laid off last year as the company that I worked for shifted to A.I.
+- I decided to explore this world, find my own way and my own place
+- I’m not abandoning my test engineer mindset, I’m just expanding it with new knowledge
+- the funny thing is, I got my job back
+- on Monday I’m starting as a contractor back at Replay, and I will be teaching the community about A.I. and ways to implement it for creating your app
+-->
