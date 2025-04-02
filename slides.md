@@ -8,10 +8,20 @@ layout: cover
 
 # How to steal A.I.’s job
 
+<Block class="absolute top-10 left-10">
+filiphric.com/testcrunch
+</Block>
+
 ---
-layout: image
-image: './test-crunch.jpg'
+layout: cover
 ---
+
+![test-crunch](/test-crunch.png){class="w-170 absolute top-30 -left-10"}
+
+<Block class="absolute top-10 right-10 bg-[#F2CD5E] text-5xl">
+DevTools of the future
+</Block>
+
 
 <!--
 - photo from last year
@@ -25,10 +35,14 @@ image: './test-crunch.jpg'
 -->
 
 ---
-layout: image
-image: './replay-layoff.png'
-backgroundSize: contain 
+layout: cover
 ---
+
+![replay-layoff](/replay-layoff.png){class="w-100 border-2 border-black rounded-lg relative left-20"}
+<Block class="absolute top-60 right-30 bg-[#EA4C88] text-5xl">
+Laid off
+</Block>
+
 
 <!--
 - unfortunately I got laid off
@@ -51,9 +65,13 @@ backgroundSize: contain
 -->
 
 ---
-layout: cover
+layout: fact
 ---
-# A.I.
+
+
+<Block class=" bg-[#F2CD5E] text-7xl">
+A.I.
+</Block>
 
 <!--
 - and I absolutely hated that, I was angry
@@ -67,7 +85,9 @@ layout: cover
 layout: cover
 ---
 
-# Reflection
+<Block class="text-7xl bg-[#F1F233]">
+Reflection
+</Block>
 
 <!-- 
 - but I took a deep breath, took a step back, dealt with the reality of it all and reflected
@@ -84,8 +104,12 @@ layout: cover
 ---
 layout: cover
 ---
+
 # I am a Test engineer!
+
+<Block>
 what the hell am I supposed to do with this A.I. stuff anyway?
+</Block>
 
 <!-- 
 - **what the hell am I supposed to do with this A.I. stuff anyway?**
@@ -113,7 +137,10 @@ what the hell am I supposed to do with this A.I. stuff anyway?
 ---
 layout: cover
 ---
-# Technically, A.I. *did* steal my job
+
+<Block class="bg-[#FF5A36] text-7xl text-align-center py-7">
+Technically, A.I. did steal my job
+</Block>
 
 <!-- 
 - it just didn’t happen the way I imagined it would
@@ -133,14 +160,18 @@ layout: cover
 -->
 
 ---
-layout: center
+layout: cover
 ---
 
 # The perfect storm
 
-- changes in job market
-- A.I. revolution
-- job transformation
+<Block class="bg-white text-3xl">
+<ul>
+<li>changes in job market</li>
+<li>A.I. revolution</li>
+<li>job transformation</li>
+</ul>
+</Block>
 
 <!-- 
 - there’s a perfect storm happening right now on the job market and we are in the middle of it
@@ -152,14 +183,21 @@ layout: center
 
 
 ---
-layout: center
+layout: default
 ---
 
 # Changes in job market
-<p></p>
 
-![job postings](/job-postings.png){class="h-100 mx-auto"}
-![job postings article](/job-postings-qr.png){class="h-20 right-10 bottom-15 absolute"}
+<Block class="px-0 py-0 bg-white mt-10">
+<img src="/job-postings.png" class="h-90 mx-auto">
+</Block>
+
+<Block class="absolute right-10 bottom-11 bg-white px-0 py-0">
+<img src="/job-postings-qr.png" class="h-20 mt-2">
+<span class="text-xs text-center mx-auto block pt-2">source</span>
+</Block>
+
+<!-- ![job postings](/job-postings.png){class="h-100 mx-auto"} -->
 <!-- 
 - these are software development job postings (USA, but the graph is very similar to the rest of the world, check source)
 - are now back to pre-covid era
@@ -178,13 +216,13 @@ layout: center
 -->
 
 ---
-layout: center
+layout: default
 ---
 
 # A.I. revolution
-<p></p>
-
-![job postings](/chatgpt-introduction.png){class="h-100 mx-auto"}
+<Block class="px-0 py-0 bg-white mt-10 mx-auto block">
+<img src="/chatgpt-introduction.png" class="h-90">
+</Block>
 
 <!-- 
 - open AI introduces chatGPT and the world is blown away
@@ -197,10 +235,20 @@ layout: center
 -->
 
 ---
-layout: center
+layout: default
 ---
 
 # A.I. revolution
+
+<Block class="px-0 py-0 bg-white mt-10 mx-auto block">
+<img src="/chatgpt-introduction.png" class="h-90">
+</Block>
+
+<img src="/zuck.png" class="h-110 mx-auto absolute -bottom-5 right-2 rotate-1">
+
+<Block class="absolute bottom-5 right-5 bg-[#EA4C88] px-0 py-0">
+Mark Zuckerberg
+</Block>
 
 <!-- 
 - a good example of this is Meta 
@@ -218,28 +266,64 @@ layout: center
   - if you don’t have AI knowledge, you’re not Meta material
 -->
 ---
-layout: center
+layout: default
 ---
 
 # Job transformation
 
-- hybrid, remote and smaller teams
+## - The perfect storm
+
+<Block class="bg-white text-xl mt-10">
+<ul>
+<li>hybrid, remote and smaller teams</li>
+</ul>
+</Block>
+
+<Block class="bg-[#92A8EC] absolute bottom-15 right-10 h-40 w-40 rotate-1 flex items-center justify-center">
+<img src="/bluesky.png" class="p-4 w-full h-full object-contain">
+</Block>
+
+<Block class="bg-[#23A093] absolute bottom-70 right-40 h-40 w-40 -rotate-1 flex items-center justify-center">
+<img src="/linear.png" class="p-4 w-full h-full object-contain">
+</Block>
 
 <!-- 
-- the third part of this perfect storm, is the job transformation - it’s the combination of first two factors
+- the third part of this perfect storm, is the job transformation - it's the combination of first two factors
 - pandemic has changed how we work, we now have hybrid and remote teams
 - and many companies have realized that they can work more effectively with less people
 - now since investor money is not flowing as it did before, many companies now work with smaller teams 
 - e.g. Bluesky or Linear seem to be successful and 
   - are now realizing that hyper-scaling and getting more people on board is maybe not the only way to go forward
-  
 -->
 
 ---
-layout: center
+layout: default
 ---
 
-- AI-powered tooling
+# Job transformation
+
+## - The perfect storm
+
+<Block class="bg-white text-xl mt-10">
+  <ul>
+    <li>hybrid, remote and smaller teams</li>
+    <li>AI-powered tooling</li>
+  </ul>
+</Block>
+
+<Block class="bg-[#EE7A5B] absolute bottom-12 right-25 h-30 w-30 rotate-1 flex items-center justify-center">
+<img src="/cursor.png" class="p-4 w-full h-full object-contain">
+</Block>
+
+<Block class="bg-[#23A093] absolute bottom-55 right-50 h-30 w-30 -rotate-1 flex items-center justify-center">
+<img src="/windsurf.png" class="p-4 w-full h-full object-contain">
+</Block>
+
+<Block class="bg-[#FEA8E7] absolute bottom-95 right-20 h-30 w-30 rotate-1 flex items-center justify-center">
+<img src="/copilot.png" class="p-4 w-full h-full object-contain">
+</Block>
+
+
 <!-- 
 - another factor that is transforming the way we work is of course A.I. we now have tooling such as
 - cursor, copilot, windsurf,... basically every IDE is now A.I. powered
@@ -247,12 +331,25 @@ layout: center
 -->
 
 ---
-layout: center
+layout: default
 ---
 
-- writing code is different
+# Job transformation
+
+## - The perfect storm
+
+<Block class="bg-white text-xl mt-10">
+  <ul>
+    <li>hybrid, remote and smaller teams</li>
+    <li>AI-powered tooling</li>
+    <li>writing code is different</li>
+  </ul>
+</Block>
 
 
+<img src="/dario.png" class="w-75 absolute right-40 -top-1" v-click/>
+<img src="/gary-tan.png" class="w-82 absolute right-0 top-36 " v-click/>
+<img src="/amjad.png" class="w-70 absolute right-40 top-65 " v-click/>
 <!-- 
 
 - writing code is different 
@@ -266,10 +363,21 @@ layout: center
 -->
 
 ---
-layout: center
+layout: default
 ---
 
-- software development becoming more accessible
+# Job transformation
+
+## - The perfect storm
+
+<Block class="bg-white text-xl mt-10">
+  <ul>
+    <li>hybrid, remote and smaller teams</li>
+    <li>AI-powered tooling</li>
+    <li>writing code is different</li>
+    <li>software development becoming more accessible</li>
+  </ul>
+</Block>
 
 <!-- 
 - this sounds crazy, but see that software development is becoming more accessible to non-developers
@@ -281,11 +389,22 @@ layout: center
 -->
 
 ---
-layout: center
+layout: default
 description: (duplicate)
 ---
 
-- software development becoming more accessible
+# Job transformation
+
+## - The perfect storm
+
+<Block class="bg-white text-xl mt-10">
+  <ul>
+    <li>hybrid, remote and smaller teams</li>
+    <li>AI-powered tooling</li>
+    <li>writing code is different</li>
+    <li>software development becoming more accessible</li>
+  </ul>
+</Block>
 
 <!-- 
 - and in a room full of testers I can almost feel the tension
@@ -301,14 +420,19 @@ description: (duplicate)
 -->
 
 ---
-layout: center
+layout: cover
 ---
 
 # The perfect storm
 
-- changes in job market
-- A.I. revolution
-- job transformation
+<Block class="bg-white text-3xl">
+<ul>
+<li>changes in job market</li>
+<li>A.I. revolution</li>
+<li>job transformation</li>
+</ul>
+</Block>
+
 
 <!-- 
 - so these are the changes that we are facing
@@ -342,7 +466,6 @@ layout: cover
 ---
 
 # Navigating A.I. space as a test engineer
-## Question time
 
 <!-- 
 - who feels like they have not been able to keep up with all the AI news?
@@ -359,10 +482,10 @@ layout: cover
 layout: cover
 ---
 
-# Navigating A.I. space as a test engineer
-## Highlight reel effect
+# Highlight reel effect
+<p></p>
 
-![highlight reel effect](/highlight-reel-effect.png){class="w-40% h-auto"}
+![highlight reel effect](/highlight-reel-effect.png){class="w-60% h-auto mx-auto"}
 
 <!-- 
 - there’s something called the highlight reel effect
@@ -379,8 +502,9 @@ layout: cover
 layout: cover
 ---
 
-# Navigating A.I. space as a test engineer
-## It’s ok to be late on A.I. trends
+# It’s ok to be late on A.I. trends
+
+<img src="/ooda.png" class="w-80 mx-auto"/>
 
 <!-- 
 - I don’t want you to completely ignore A.I. 
@@ -407,10 +531,21 @@ layout: cover
 
 
 ---
-layout: cover
+layout: default
 ---
 
 # You possess many skills that are required for the age of A.I.
+
+<Block class="bg-white text-xl mt-10 w-100">
+  <ul>
+    <li>validation skills</li>
+    <li>bias detection</li>
+    <li>problem definition and solution identification</li>
+    <li>red-reaming mentality</li>
+  </ul>
+</Block>
+
+<img src="/dona.png" class="absolute right-5 top-20 w-110"/>
 
 <!-- 
 - my second advice would be to deepen your expertise
@@ -428,7 +563,10 @@ layout: cover
 layout: cover
 ---
 
-![](/ai-jobs.png)
+<Block class="bg-white text-xl mt-10">
+<img src="/ai-jobs.png" class="w-80% mx-auto"/>
+</Block>
+
 <!-- 
 - there’s also an interesting trend that seem to suggest that AI jobs are on the rise
 - the curves on this graph look kinda similar to the one I showed earlier
@@ -456,7 +594,7 @@ layout: cover
 <!-- 
 - but if you’re not in the mood for jumping into your next AI job, I want to show you how you can use AI today
 - let’s take a look at a test automation problem and see if we can solve it in couple of minutes
-- convert tests from cy to pw, add selectors
+- Petr Svoboda told us we should learn to use AI powered tools and I’m hoping I can persuade you to do that today
 -->
 
 ---
@@ -464,6 +602,10 @@ layout: cover
 ---
 
 # Demo
+
+<!-- 
+- convert tests from cy to pw, add selectors
+-->
 
 ---
 layout: cover
