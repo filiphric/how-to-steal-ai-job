@@ -1,7 +1,0 @@
-.layout2 {
-  grid-template-columns: 1fr !important;
-}
-
-.layout2 .main, .layout2 .next {
-  display: none;
-}

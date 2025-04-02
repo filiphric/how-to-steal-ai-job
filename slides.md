@@ -3,6 +3,12 @@ theme: ./theme
 title: How to steal A.I.’s job
 transition: fade
 mdc: true
+layout: cover
+---
+
+# How to steal A.I.’s job
+
+---
 layout: image
 image: './test-crunch.jpg'
 ---

@@ -74,3 +74,32 @@
     @apply text-6xl font-500 leading-20;
   }
 }
+
+/* presenter */
+.layout2 {
+  grid-template-columns: 1fr !important;
+}
+
+.layout2 .main, .layout2 .next {
+  display: none;
+}
+
+[title="Go to next slide"], [title="Go to previous slide"] {
+  width: 350px;
+  height: 100vh;
+  opacity: 0;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-block;
+  z-index: 9999999999999;
+  touch-action: manipulation;
+}
+
+[title="Go to previous slide"] {
+  left: 0;
+}
+
+[title="Go to next slide"] {
+  right: 0;
+}
