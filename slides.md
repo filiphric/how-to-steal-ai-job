@@ -8,7 +8,6 @@ image: './test-crunch.jpg'
 ---
 
 <!--
-- Povedal som svojej žene, že chcem začať prezentáciu vtipom, a keď som sa jej spýtal akým vtipom, poslala mi túto fotku
 - fotka z minulého roka
 - Hovoril som konkrétne o automatizácii testov, o praktikách automatizácie a chybách
 - Pracoval som pre spoločnosť Replay (všimnite si čiapku) a na pódiu som ukázal, ako môžete debugovať vašu aplikáciu
