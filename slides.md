@@ -153,8 +153,8 @@ layout: center
 # Zmeny na trhu práce
 <p></p>
 
-![job postings](./job-postings.png){class="h-100 mx-auto"}
-![job postings article](./job-postings-qr.png){class="h-20 right-10 bottom-15 absolute"}
+![job postings](/job-postings.png){class="h-100 mx-auto"}
+![job postings article](/job-postings-qr.png){class="h-20 right-10 bottom-15 absolute"}
 
 <!-- 
 - toto sú pracovné ponuky v oblasti vývoja softvéru (USA, ale graf je veľmi podobný zvyšku sveta, pozrite si zdroj)
@@ -180,7 +180,7 @@ layout: center
 # A.I. revolúcia
 <p></p>
 
-![job postings](./chatgpt-introduction.png){class="h-100 mx-auto"}
+![job postings](/chatgpt-introduction.png){class="h-100 mx-auto"}
 
 <!-- 
 - open AI predstavuje chatGPT a svet je ohromený
@@ -356,7 +356,7 @@ layout: cover
 # Orientácia v A.I. priestore ako test inžinier
 ## Efekt highlightov
 
-![highlight reel effect](./highlight-reel-effect.png){class="w-40% h-auto"}
+![highlight reel effect](/highlight-reel-effect.png){class="w-40% h-auto"}
 
 <!-- 
 - existuje niečo, čo sa nazýva efekt highlightov
@@ -420,7 +420,7 @@ layout: cover
 layout: cover
 ---
 
-![](./ai-jobs.png)
+![](/ai-jobs.png)
 
 <!-- 
 - je tu tiež zaujímavý trend, ktorý sa zdá naznačovať, že AI pracovné miesta sú na vzostupe
