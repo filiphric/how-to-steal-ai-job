@@ -8,7 +8,6 @@ image: './test-crunch.jpg'
 ---
 
 <!--
-- I told my wife I want to start the presentation with a joke, and when I asked her what kind of joke, she sent me this photo
 - photo from last year
 - I spoke about test automation specifically on automation practices and mistakes
 - I worked for a company called Replay (see the hat) and on the stage I showed how you can debug your application
