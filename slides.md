@@ -1,5 +1,5 @@
 ---
-theme: default
+theme: ./theme
 title: How to steal A.I.’s job
 transition: fade
 mdc: true
