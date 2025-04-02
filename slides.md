@@ -1,6 +1,6 @@
 ---
 theme: ./theme
-title: How to steal A.I.’s job
+title: How to steal A.I.'s job
 transition: fade
 mdc: true
 layout: image
@@ -8,15 +8,15 @@ image: './test-crunch.jpg'
 ---
 
 <!--
-- I told my wife I want to start the presentation with a joke, and when I asked her what kind of joke, she sent me this photo
-- photo from last year
-- I spoke about test automation specifically on automation practices and mistakes
-- I worked for a company called Replay (see the hat) and on the stage I showed how you can debug your application
-- Replay is this tool that allows you to record the whole runtime of the application and examine the code line by line
-- it was all very technical, and I enjoyed the heck of it
-- I loved how Replay went deep into the nitty-gritty, it was pure engineering and all around fun
-- honestly it was a dream job - doing developer relations, going to conferences, talking test automation and development
-- but then
+- Povedal som svojej žene, že chcem začať prezentáciu vtipom, a keď som sa jej spýtal akým vtipom, poslala mi túto fotku
+- fotka z minulého roka
+- Hovoril som konkrétne o automatizácii testov, o praktikách automatizácie a chybách
+- Pracoval som pre spoločnosť Replay (všimnite si čiapku) a na pódiu som ukázal, ako môžete debugovať vašu aplikáciu
+- Replay je nástroj, ktorý vám umožňuje nahrať celý beh aplikácie a preskúmať kód riadok po riadku
+- bolo to všetko veľmi technické a užil som si to naplno
+- Miloval som, ako Replay išiel do detailov, bolo to čisté inžinierstvo a všetko okolo bola zábava
+- úprimne to bola práca snov - robiť developer relations, chodiť na konferencie, hovoriť o automatizácii testov a vývoji
+- ale potom
 -->
 
 ---
@@ -26,23 +26,23 @@ backgroundSize: contain
 ---
 
 <!--
-- unfortunately I got laid off
-- I was devastated
-- I lost the job I loved
-- I now had to fear about the future, 
-  - about my family, my four kids and my wife, 
-  - we have a mortgage I need to pay, 
-  - I just booked a holiday for us, which is a very pricey thing for family of this size
-- I also thought that Replay was a groundbreaking innovation that was absolutely needed in the world
-- I hated the fact that we are giving up on that mission
-- the problem 
-  - sales didn’t go very well, we didn’t hit our goals, 
-  - we had hard time explaining the value, 
-  - our product was kinda slow and 
-  - it seemed like in general, people don’t care about flaky tests all that much
-- that was the reason why company decided to pivot
-- it laid off 7 of the 14 engineers, myself included 
-- and has decided to shift the focus to
+- bohužiaľ ma prepustili
+- bol som zdevastovaný
+- stratil som prácu, ktorú som miloval
+- teraz som sa musel báť o budúcnosť
+  - o moju rodinu, štyri deti a manželku
+  - máme hypotéku, ktorú musím splácať
+  - práve som nám zarezervoval dovolenku, čo je pre rodinu tejto veľkosti veľmi drahá vec
+- tiež som si myslel, že Replay je prelomová inovácia, ktorú svet skutočne potreboval
+- nenávidel som fakt, že sa vzdávame tejto misie
+- problém bol
+  - predaj nešiel veľmi dobre, nedosiahli sme naše ciele
+  - mali sme ťažkosti s vysvetľovaním hodnoty
+  - náš produkt bol trochu pomalý a
+  - zdalo sa, že ľuďom vo všeobecnosti až tak nezáleží na nestabilných testoch
+- to bol dôvod, prečo sa spoločnosť rozhodla zmeniť smer
+- prepustila 7 zo 14 inžinierov, vrátane mňa
+- a rozhodla sa zamerať na
 -->
 
 ---
@@ -51,228 +51,227 @@ layout: cover
 # A.I.
 
 <!--
-- and I absolutely hated that, I was angry
-- what do you mean AI?
-- here we are, creating this amazing engineering marvel, 
-  - these revolutionaly developer tools and 
-  - you’re just going to throw all that away and and focus on AI whatever that means?
+- a ja som to absolútne nenávidel, bol som nahnevaný
+- čo tým myslíte AI?
+- tu sme, vytvárame tento úžasný inžiniersky zázrak
+  - tieto revolučné vývojárske nástroje a
+  - vy to všetko len tak zahodíte a zameriate sa na AI, nech to znamená čokoľvek?
 -->
 
 ---
 layout: cover
 ---
 
-# Reflection
+# Reflexia
 
 <!-- 
-- but I took a deep breath, took a step back, dealt with the reality of it all and reflected
-- because the thing is, when things get emotional, it’s easy to think I’m smart and the other side is dumb
-- I tried to excercise the practice
-  - if there’s a thing that makes me angry or when I think something is just stupid, I try think about the other perspectives
-- so I thought I need to figure this out
-- why have these people in Silicon valey that I worked for decided to focus on AI? Why now? What are they thinking? What do they see that I don’t?
-- it takes a little mental practice to ask this questions and to admit - hey maybe I’m wrong, and maybe they are right
-- it felt really hard
-  - I didn’t feel like this AI hype is something I should be part of
-- after all... 
+- ale nadýchol som sa, ustúpil som krok späť, vyrovnal sa s realitou a zamyslel sa
+- pretože keď sú veci emotívne, je ľahké si myslieť, že ja som múdry a druhá strana je hlúpa
+- snažil som sa praktizovať
+  - ak je niečo, čo ma hnevá alebo keď si myslím, že niečo je jednoducho hlúpe, snažím sa premýšľať o iných perspektívach
+- tak som si pomyslel, že to musím pochopiť
+- prečo sa títo ľudia v Silicon Valley, pre ktorých som pracoval, rozhodli zamerať na AI? Prečo teraz? Čo si myslia? Čo vidia, čo ja nevidím?
+- vyžaduje to trochu mentálneho cvičenia, aby sme si položili tieto otázky a priznali - hej, možno sa mýlim a možno majú oni pravdu
+- bolo to naozaj ťažké
+  - necítil som, že by som mal byť súčasťou tohto AI hypu
+- koniec koncov...
 -->
----
-layout: cover
----
-# I am a Test engineer!
-what the hell am I supposed to do with this A.I. stuff anyway?
-
-<!-- 
-- **what the hell am I supposed to do with this A.I. stuff anyway?**
-- maybe you also felt that way, 
-  - or maybe you still feel this way
-- what even is this A.I. thing and how does it affect me?
-- I was laid off in July last yeat year - this was year and a half since chatGPT got released and while 
-  - it was a fun thing that could help write silly poems 
-  - and maybe a little bit of code, 
-  - after a time it felt like it got dumber 
-  - and I could not do any useful work with it
-- I thought it’s not really worth spending too much time on and I genuinely thought I shouldn’t be concerned with it
-- after all... **I’m a test engineer!**
-- I test stuff and I take a big pride in that!
-  - all you linkedin influencers can go AI this AI that, at the end of the day, it cannot do anything useful
-  - you cannot vibe code your way into quality software
-  - if you’re going to generate a ton of code guess who’s going to test that?
-  - ME!
-  - who’s going to write tests for it?
-  - ME!
-- so you can say **AI is going to take my job** all day, you’ll still need someone to make sure it works, right? RIGHT?
-- but then I thought about it and realized... wait a minute
- -->
 
 ---
 layout: cover
 ---
-# Technically, A.I. *did* steal my job
+# Som Test inžinier!
+čo do pekla mám robiť s týmto A.I.?
 
 <!-- 
-- it just didn’t happen the way I imagined it would
-- and I wasn’t alone 
-  - my friends over at my previous job got laid off, 
-  - I read about layoffs practically every day
-  - there were thousands of engineers and testers being laid off
-- it wasn’t that some AI robot was put in my chair and filled in my position
-- I needed to start paying attention, because this thing is real
-- and I suggest you start paying attention too if you haven’t already, 
-  - because although I’m standing here being in this unique position, I can tell you, my story isn’t unique
-- and I’m not saying this because I want you to be scared
-- I’m saying this because 
-  - I want you to be aware 
-  - I want you to be ready
-- things are happening, and they are happening now
+- **čo do pekla mám robiť s týmto A.I.?**
+- možno ste sa tak cítili aj vy
+  - alebo sa tak možno stále cítite
+- čo je vlastne táto A.I. vec a ako ma ovplyvňuje?
+- prepustili ma v júli minulého roka - bolo to rok a pol po vydaní chatGPT a zatiaľ čo
+  - bola to zábavná vec, ktorá mohla pomôcť písať hlúpe básne
+  - a možno trochu kódu
+  - po čase sa zdalo, že zhlúpol
+  - a nemohol som s ním urobiť žiadnu užitočnú prácu
+- myslel som si, že nestojí za to tráviť s tým príliš veľa času a úprimne som si myslel, že by som sa tým nemal zaoberať
+- koniec koncov... **som test inžinier!**
+- testujem veci a som na to veľmi hrdý!
+  - všetci vy linkedin influenceri môžete hovoriť AI toto AI tamto, na konci dňa to nemôže urobiť nič užitočné
+  - nemôžete si vykódovať kvalitný softvér len tak z vibes
+  - ak budete generovať tony kódu, hádajte, kto to bude testovať?
+  - JA!
+  - kto napíše testy?
+  - JA!
+- takže môžete hovoriť **AI zoberie vašu prácu** celý deň, stále budete potrebovať niekoho, kto sa uistí, že to funguje, však? VŠAK?
+- ale potom som sa nad tým zamyslel a uvedomil si... počkať chvíľu
+-->
+
+---
+layout: cover
+---
+# Technicky, A.I. *naozaj* ukradlo moju prácu
+
+<!-- 
+- len sa to nestalo tak, ako som si predstavoval
+- a nebol som sám
+  - moji priatelia z predchádzajúcej práce boli prepustení
+  - čítal som o prepúšťaní prakticky každý deň
+  - tisíce inžinierov a testerov bolo prepustených
+- nebolo to tak, že by nejaký AI robot sedel na mojej stoličke a prevzal moju pozíciu
+- musel som začať dávať pozor, pretože táto vec je reálna
+- a navrhujem, aby ste začali dávať pozor aj vy, ak ste tak ešte neurobili
+  - pretože aj keď tu stojím v tejto jedinečnej pozícii, môžem vám povedať, že môj príbeh nie je jedinečný
+- a nehovorím to preto, že chcem, aby ste sa báli
+- hovorím to preto
+  - že chcem, aby ste si boli vedomí
+  - chcem, aby ste boli pripravení
+- veci sa dejú, a dejú sa teraz
 -->
 
 ---
 layout: center
 ---
 
-# The perfect storm
+# Dokonalá búrka
 
-- changes in job market
-- A.I. revolution
-- job transformation
+- zmeny na trhu práce
+- A.I. revolúcia
+- transformácia práce
 
 <!-- 
-- there’s a perfect storm happening right now on the job market and we are in the middle of it
+- práve teraz prebieha na trhu práce dokonalá búrka a my sme v jej strede
 
-- there are changes in job market
-- we are living through AI revolution
-- this results in job transformation
+- sú tu zmeny na trhu práce
+- žijeme počas AI revolúcie
+- to vedie k transformácii práce
 -->
-
 
 ---
 layout: center
 ---
 
-# Changes in job market
+# Zmeny na trhu práce
 <p></p>
 
 ![job postings](./job-postings.png){class="h-100 mx-auto"}
 ![job postings article](./job-postings-qr.png){class="h-20 right-10 bottom-15 absolute"}
+
 <!-- 
-- these are software development job postings (USA, but the graph is very similar to the rest of the world, check source)
-- are now back to pre-covid era
-- the main reason for this is that interest rates went up after the end of covid
-- what that means
-  - more pressure on companies to be profitable, 
-  - VC investors are more careful, which means they invest less
-- when companies have money, 
-  - they can hire more people, ergo we have more job postings, 
-  - if they don’t - we have this slide down in job postings
-- what this means for us as individuals is that 
-  - it is harder to find a job, you are expected to work more, ideally for less money, 
-  - if you are a junior you’re in trouble, if you are an expensive senior, you might be in trouble too
-- all of this was mostly caused by the interest rates going up
-  - but then in the middle of the fallout of all this, another thing happens
+- toto sú pracovné ponuky v oblasti vývoja softvéru (USA, ale graf je veľmi podobný zvyšku sveta, pozrite si zdroj)
+- sú teraz späť na úrovni pred covidom
+- hlavným dôvodom je, že úrokové sadzby po skončení covidu stúpli
+- čo to znamená
+  - väčší tlak na spoločnosti, aby boli ziskové
+  - VC investori sú opatrnejší, čo znamená, že investujú menej
+- keď majú spoločnosti peniaze
+  - môžu najímať viac ľudí, ergo máme viac pracovných ponúk
+  - ak nie - máme tento pokles v pracovných ponukách
+- čo to pre nás ako jednotlivcov znamená
+  - je ťažšie nájsť si prácu, očakáva sa od vás, že budete pracovať viac, ideálne za menej peňazí
+  - ak ste junior, máte problém, ak ste drahý senior, môžete mať tiež problém
+- všetko toto bolo spôsobené hlavne zvýšením úrokových sadzieb
+  - ale potom v strede tohto všetkého sa stane ďalšia vec
 -->
 
 ---
 layout: center
 ---
 
-# A.I. revolution
+# A.I. revolúcia
 <p></p>
 
 ![job postings](./chatgpt-introduction.png){class="h-100 mx-auto"}
 
 <!-- 
-- open AI introduces chatGPT and the world is blown away
-- remember, remember 30th of November
-- of course, there’s a ton of hype around this, some of it is reasonable, some if it is not
-- but many companies have decided to place the bet and shift to AI (the company I worked for included)
-- and some companies saw a real opportunity, while some were pressured down by investors
-- but either way, as a result many companies decided to become AI companies
-  - in process, some decide to cut staff to make room for this new AI revolution
+- open AI predstavuje chatGPT a svet je ohromený
+- pamätajte, pamätajte 30. november
+- samozrejme, je okolo toho veľa hypu, niektorý je rozumný, niektorý nie
+- ale mnoho spoločností sa rozhodlo vsadiť na AI a presunúť sa k nej (vrátane spoločnosti, pre ktorú som pracoval)
+- a niektoré spoločnosti videli skutočnú príležitosť, zatiaľ čo niektoré boli tlačené investormi
+- ale tak či onak, v dôsledku toho sa mnoho spoločností rozhodlo stať AI spoločnosťami
+  - v procese sa niektoré rozhodli znížiť počet zamestnancov, aby uvoľnili miesto pre túto novú AI revolúciu
 -->
 
 ---
 layout: center
 ---
 
-# A.I. revolution
+# A.I. revolúcia
 
 <!-- 
-- a good example of this is Meta 
-  - laid off nearly one fourth of it’s workforce (11K in 2022, 10K in 2023)
-  - and you’d think that when a company lays off so many people, it’s on the edge of existence right?
-  - actually no. beginning of 2024, Meta announced their record earnings
-- Meta has trippled their earnings
-  - from 2023 to 2024, Meta has put 723 Billion to their market capital 
-  - o put that into perspective that’s three Netflixes over the period of one year
-- not all of this of course did not happen because of AI, 
-  - but this February Meta announced another round of layoffs, 
-  - which is directly tied to AI 
-  - out with the low performes, and hire AI experts instead
-  - Meta is going full throttle with this
-  - if you don’t have AI knowledge, you’re not Meta material
--->
----
-layout: center
----
-
-# Job transformation
-
-- hybrid, remote and smaller teams
-
-<!-- 
-- the third part of this perfect storm, is the job transformation - it’s the combination of first two factors
-- pandemic has changed how we work, we now have hybrid and remote teams
-- and many companies have realized that they can work more effectively with less people
-- now since investor money is not flowing as it did before, many companies now work with smaller teams 
-- e.g. Bluesky or Linear seem to be successful and 
-  - are now realizing that hyper-scaling and getting more people on board is maybe not the only way to go forward
-  
+- dobrým príkladom je Meta
+  - prepustila takmer štvrtinu svojej pracovnej sily (11K v 2022, 10K v 2023)
+  - a mysleli by ste si, že keď spoločnosť prepustí toľko ľudí, je na pokraji existencie, však?
+  - v skutočnosti nie. začiatkom roku 2024 Meta oznámila svoje rekordné zisky
+- Meta strojnásobila svoje zisky
+  - od 2023 do 2024 Meta pridala 723 miliárd k svojej trhovej kapitalizácii
+  - pre predstavu, to sú tri Netflixy za obdobie jedného roka
+- samozrejme, nie všetko sa stalo kvôli AI
+  - ale tento február Meta oznámila ďalšie kolo prepúšťania
+  - ktoré je priamo spojené s AI
+  - von s nízkymi výkonmi a namiesto toho najať AI expertov
+  - Meta ide naplno
+  - ak nemáte znalosti AI, nie ste Meta materiál
 -->
 
 ---
 layout: center
 ---
 
-- AI-powered tooling
+# Transformácia práce
+
+- hybridné, vzdialené a menšie tímy
+
 <!-- 
-- another factor that is transforming the way we work is of course A.I. we now have tooling such as
-- cursor, copilot, windsurf,... basically every IDE is now A.I. powered
-- we see rise of agentic A.I., wide adoption of MCP servers
+- tretia časť tejto dokonalej búrky je transformácia práce - je to kombinácia prvých dvoch faktorov
+- pandémia zmenila spôsob našej práce, teraz máme hybridné a vzdialené tímy
+- a mnoho spoločností si uvedomilo, že môžu pracovať efektívnejšie s menším počtom ľudí
+- teraz, keď investorské peniaze netečú ako predtým, mnoho spoločností pracuje s menšími tímami
+- napr. Bluesky alebo Linear sa zdajú byť úspešné a
+  - teraz si uvedomujú, že hyper-škálovanie a získavanie viac ľudí na palubu možno nie je jediný spôsob, ako ísť vpred
 -->
 
 ---
 layout: center
 ---
 
-- writing code is different
-
+- AI-poháňané nástroje
 
 <!-- 
-
-- writing code is different 
-- Anthropic’s CEO Dario Amodei famously said two weeks ago that 
-  - in 3-6 months, 90% of the code will be AI-generated 
-  - and within 12 months it’s going to be essentially all the code
-- he’s a CEO of AI company, he has to say that, but we have other people saying this too 
-- Garry Tan, the CEO of Y combinator says pretty much the same, 
-- CEO of Replit Amjad Masad said last week that you shouldn’t even learn to code
-
+- ďalším faktorom, ktorý transformuje spôsob našej práce, je samozrejme A.I. teraz máme nástroje ako
+- cursor, copilot, windsurf,... v podstate každé IDE je teraz poháňané A.I.
+- vidíme nástup agentickej A.I., široké prijatie MCP serverov
 -->
 
 ---
 layout: center
 ---
 
-- software development becoming more accessible
+- písanie kódu je iné
 
 <!-- 
-- this sounds crazy, but see that software development is becoming more accessible to non-developers
-- at this point, you probably hear the term "vibe-coding"
-- a term first mentioned by Andrej Karpathy, 
-  - where you essentially switch the driver seat with AI, and just let it do it’s thing, 
-  - generate code, forget the code even exists, 
-  - just give in to the vibes and create your app
+- písanie kódu je iné
+- CEO Anthropic Dario Amodei slávne povedal pred dvoma týždňami, že
+  - za 3-6 mesiacov bude 90% kódu generované AI
+  - a do 12 mesiacov to bude v podstate všetok kód
+- je CEO AI spoločnosti, musí to povedať, ale máme aj iných ľudí, ktorí hovoria to isté
+- Garry Tan, CEO Y combinatora hovorí prakticky to isté
+- CEO Replitu Amjad Masad povedal minulý týždeň, že by ste sa nemali ani učiť kódovať
+-->
+
+---
+layout: center
+---
+
+- vývoj softvéru sa stáva dostupnejším
+
+<!-- 
+- znie to šialene, ale vidíte, že vývoj softvéru sa stáva dostupnejším pre ne-vývojárov
+- v tomto bode pravdepodobne počujete termín "vibe-coding"
+- termín prvýkrát spomenutý Andrejom Karpathym
+  - kde v podstate vymeníte sedadlo vodiča s AI a necháte ju robiť svoju vec
+  - generovať kód, zabudnúť, že kód vôbec existuje
+  - len sa poddať vibes a vytvoriť svoju aplikáciu
 -->
 
 ---
@@ -280,178 +279,177 @@ layout: center
 description: (duplicate)
 ---
 
-- software development becoming more accessible
+- vývoj softvéru sa stáva dostupnejším
 
 <!-- 
-- and in a room full of testers I can almost feel the tension
-  - oh boy that’s not going to end well, how good can code created like this be?
-- I will choose to answer this with a question
-  - how good is the code written today?
-- at this point consulted and seen the code of tens of different companies and 
-  - you’d be surprised at the quality of code of some companies that earn millions in revenues
-- the point I’m making, is that 
-  - there are legit businesses built on questionable code quality 
-  - and there are more and more people entering the tech world without knowing how to code 
-- that’s just the reality of it 
+- a v miestnosti plnej testerov takmer cítim napätie
+  - no to sa nemôže skončiť dobre, aký dobrý môže byť takto vytvorený kód?
+- rozhodnem sa na to odpovedať otázkou
+  - aký dobrý je kód písaný dnes?
+- v tomto bode som konzultoval a videl kód desiatok rôznych spoločností a
+  - boli by ste prekvapení kvalitou kódu niektorých spoločností, ktoré zarábajú milióny
+- pointou je, že
+  - existujú legitímne biznisy postavené na pochybnej kvalite kódu
+  - a čoraz viac ľudí vstupuje do tech sveta bez znalosti kódovania
+- to je jednoducho realita
 -->
 
 ---
 layout: center
 ---
 
-# The perfect storm
+# Dokonalá búrka
 
-- changes in job market
-- A.I. revolution
-- job transformation
+- zmeny na trhu práce
+- A.I. revolúcia
+- transformácia práce
 
 <!-- 
-- so these are the changes that we are facing
-- we are living through a perfect storm that’s changing everything
-- although we wouldn’t believe it, A.I. is affecting our jobs and some of us are even losing it
-- so the question is - what can we do? how do we get our jobs back?
-- I want to provide some answers
-- or suggestions that I think might be the answers
-  - I want you to leave this conference with a little bit of hope
-- and I’ll split this again into three parts and give some advice for each part
+- takže toto sú zmeny, ktorým čelíme
+- žijeme počas dokonalej búrky, ktorá mení všetko
+- aj keď by sme tomu neverili, A.I. ovplyvňuje naše práce a niektorí z nás o ne dokonca prichádzajú
+- takže otázka znie - čo môžeme robiť? ako získame naše práce späť?
+- chcem poskytnúť nejaké odpovede
+- alebo návrhy, ktoré si myslím, že by mohli byť odpoveďami
+  - chcem, aby ste odišli z tejto konferencie s trochou nádeje
+- a rozdelím to opäť na tri časti a dám nejaké rady pre každú časť
 -->
 
 ---
 layout: cover
 ---
 
-# What do to
+# Čo robiť
 
-- how to navigate through the A.I. space as a test engineer
-- what are the skill you posses today that can help you
-- how to practically apply your knowledge
+- ako sa orientovať v A.I. priestore ako test inžinier
+- aké sú zručnosti, ktoré máte dnes a ktoré vám môžu pomôcť
+- ako prakticky aplikovať vaše znalosti
 
 <!-- 
-- first, we’ll take a look at how you can navigate all the AI stuff as a test engineer
-- then we’ll take a look at the skillset of a tester and talk about all the stuff you already posses today and I’ll show you how not only you can survive, but how you can actually thrive
-- and finally we’ll take a look at what you can do today to be successful
+- najprv sa pozrieme na to, ako sa môžete orientovať vo všetkom tom AI ako test inžinier
+- potom sa pozrieme na súbor zručností testera a porozprávame sa o všetkom, čo už dnes máte a ukážem vám, ako nielen prežiť, ale ako sa vám môže skutočne dariť
+- a nakoniec sa pozrieme na to, čo môžete urobiť dnes, aby ste boli úspešní
 -->
 
 ---
 layout: cover
 ---
 
-# Navigating A.I. space as a test engineer
-## Question time
+# Orientácia v A.I. priestore ako test inžinier
+## Čas na otázky
 
 <!-- 
-- who feels like they have not been able to keep up with all the AI news?
-- if you feel like everything is moving too fast, you are not alone
-- ít seems like every day there’s some ground breaking revolution happening in AI
-- just last week we had new image model from open AI
-- we got deepseek, anthropic, gemini, grok pushing new models what seem like every day
-- and if you look on linkedin or other social media, you might feel like everyone is doing cool stuff with AI
-- you might feel like you missed the train
-- I want to assure you, that you are probably not missing out
+- kto má pocit, že nedokázal držať krok so všetkými AI novinkami?
+- ak máte pocit, že sa všetko pohybuje príliš rýchlo, nie ste sami
+- zdá sa, že každý deň sa deje nejaká prelomová revolúcia v AI
+- len minulý týždeň sme mali nový obrazový model od open AI
+- máme deepseek, anthropic, gemini, grok, ktoré vydávajú nové modely zdanlivo každý deň
+- a ak sa pozriete na linkedin alebo iné sociálne médiá, môžete mať pocit, že každý robí cool veci s AI
+- môžete mať pocit, že ste zmeškali vlak
+- chcem vás uistiť, že pravdepodobne o nič neprichádzate
 -->
 
 ---
 layout: cover
 ---
 
-# Navigating A.I. space as a test engineer
-## Highlight reel effect
+# Orientácia v A.I. priestore ako test inžinier
+## Efekt highlightov
 
 ![highlight reel effect](./highlight-reel-effect.png){class="w-40% h-auto"}
 
 <!-- 
-- there’s something called the highlight reel effect
-- it’s this sense of falsified reality - a feeling that everyone else is living happy and perfect life
-- when in reality, we only see what people want to show and edit all the bad stuff
-- but our brains don’t seem to process that too well and make us feel like we are missing out
-- same thing might be happening to us in relation to AI and the speed of it’s development
-- we are seeing how AI is doing crazier and crazier stuff every day
-- but here’s something that you maybe don’t hear every day 
-  - in fact, you probably keep hearing the opposite
+- existuje niečo, čo sa nazýva efekt highlightov
+- je to tento pocit falošnej reality - pocit, že všetci ostatní žijú šťastný a dokonalý život
+- keď v skutočnosti vidíme len to, čo ľudia chcú ukázať a upravujú všetky zlé veci
+- ale naše mozgy to nespracúvajú príliš dobre a vytvárajú v nás pocit, že o niečo prichádzame
+- to isté sa nám môže diať vo vzťahu k AI a rýchlosti jeho vývoja
+- vidíme, ako AI robí každý deň bláznivejšie a bláznivejšie veci
+- ale tu je niečo, čo možno nepočujete každý deň
+  - v skutočnosti pravdepodobne stále počujete opak
 -->
 
 ---
 layout: cover
 ---
 
-# Navigating A.I. space as a test engineer
-## It’s ok to be late on A.I. trends
+# Orientácia v A.I. priestore ako test inžinier
+## Je v poriadku meškať s A.I. trendmi
 
 <!-- 
-- I don’t want you to completely ignore A.I. 
-- but jumping from AI hype to AI hype is just not healthy
-- you’ll get overwhelmed and it will be hard to learn anything
-- I still think you should learn and keep an eye on the general trends
-- you can practice something called OODA loop which is a decision-making model developed by United States Air Force
-- this allowed Air force pilots to quickly act in combat following the four steps
-  - observe, orient, decide, act
-  - if you simply jump on every hype train, you’ll be jumping between the top two all the time
-  - but actually spending some mental energy on orienting, studying the situation, you’ll be able to decide better and act better
-  - if it’s good for fighter jet pilots it’s good for you too
+- nechcem, aby ste úplne ignorovali A.I.
+- ale skákanie z AI hypu na AI hype jednoducho nie je zdravé
+- budete preťažení a bude ťažké sa niečo naučiť
+- stále si myslím, že by ste sa mali učiť a sledovať všeobecné trendy
+- môžete praktizovať niečo, čo sa nazýva OODA loop, čo je model rozhodovania vyvinutý Letectvom Spojených štátov
+- to umožnilo pilotom letectva rýchlo konať v boji nasledujúc štyri kroky
+  - pozorovať, orientovať sa, rozhodnúť sa, konať
+  - ak jednoducho skočíte na každý hype vlak, budete skákať medzi prvými dvoma celý čas
+  - ale ak skutočne vynaložíte mentálnu energiu na orientáciu, štúdium situácie, budete sa môcť lepšie rozhodnúť a lepšie konať
+  - ak je to dobré pre pilotov stíhačiek, je to dobré aj pre vás
 -->
 
 ---
 layout: cover
 ---
 
-# My advice: Don’t try to be first, but be aware
+# Moja rada: Nesnažte sa byť prví, ale buďte informovaní
 
 <!-- 
-- so my advice is: Don’t try to be first, but be aware
+- takže moja rada je: Nesnažte sa byť prví, ale buďte informovaní
 -->
-
 
 ---
 layout: cover
 ---
 
-# You possess many skills that are required for the age of A.I.
+# Máte mnoho zručností, ktoré sú potrebné pre vek A.I.
 
 <!-- 
-- my second advice would be to deepen your expertise
-  - it’s becoming more important in the age of AI, not less
-- I’m going to cite from Dona Sarkar’s talk I hear last year
-- because she pointed out that there are lot of skills you have today, that will be needed in the age of AI
-  - validation skills - ensuring that a system or product functions as expected
-  - Bias Detection - QA professionals are great at identifying potential issues and edge cases
-  - Problem Definition and Solution Identification 
-  - red-teaming mentality - being able to identify risks - how many of you think of security when we talk about AI?
+- moja druhá rada by bola prehĺbiť svoje odborné znalosti
+  - stáva sa to dôležitejším vo veku AI, nie menej
+- budem citovať z prednášky Dony Sarkar, ktorú som počul minulý rok
+- pretože poukázala na to, že máte dnes veľa zručností, ktoré budú potrebné vo veku AI
+  - validačné zručnosti - zabezpečenie, že systém alebo produkt funguje podľa očakávaní
+  - Detekcia zaujatosti - QA profesionáli sú skvelí v identifikácii potenciálnych problémov a hraničných prípadov
+  - Definícia problému a identifikácia riešenia
+  - red-team mentalita - schopnosť identifikovať riziká - koľkí z vás myslia na bezpečnosť, keď hovoríme o AI?
 -->
-
 
 --- 
 layout: cover
 ---
 
 ![](./ai-jobs.png)
+
 <!-- 
-- there’s also an interesting trend that seem to suggest that AI jobs are on the rise
-- the curves on this graph look kinda similar to the one I showed earlier
-- this shows just the subset of AI jobs in software development sector
-- there’s a chance that your job is not going to be called "tester" or "test engineer", but the skills will be needed
-- but one thing is for sure
+- je tu tiež zaujímavý trend, ktorý sa zdá naznačovať, že AI pracovné miesta sú na vzostupe
+- krivky na tomto grafe vyzerajú podobne ako ten, ktorý som ukázal skôr
+- toto ukazuje len podmnožinu AI pracovných miest v sektore vývoja softvéru
+- je šanca, že vaša práca sa nebude volať "tester" alebo "test inžinier", ale zručnosti budú potrebné
+- ale jedna vec je istá
 -->
 
 --- 
 layout: cover
 ---
 
-# The need for excellence is not going anywhere
+# Potreba excelentnosti nikam neodchádza
 
 <!-- 
-- The need for excellence is not going anywhere
+- Potreba excelentnosti nikam neodchádza
 -->
 
 ---
 layout: cover
 ---
 
-# How to practically apply your knowledge
+# Ako prakticky aplikovať vaše znalosti
 
 <!-- 
-- but if you’re not in the mood for jumping into your next AI job, I want to show you how you can use AI today
-- let’s take a look at a test automation problem and see if we can solve it in couple of minutes
-- convert tests from cy to pw, add selectors
+- ale ak nemáte náladu skočiť do vašej ďalšej AI práce, chcem vám ukázať, ako môžete používať AI dnes
+- pozrime sa na problém s automatizáciou testov a pozrime sa, či ho môžeme vyriešiť za pár minút
+- konvertovať testy z cy na pw, pridať selektory
 -->
 
 ---
@@ -464,25 +462,25 @@ layout: cover
 layout: cover
 ---
 
-# Stealing A.I.’s job
+# Ukradnutie práce A.I.
 
 <!-- 
-- the truth is, if you want to steal A.I.’s job, it’s not going to happen the same way we thought A.I. is going to take our jobs
-- A.I. is here to stay and we’ll have to learn to live with it
-- your job as a tester is going to transform, and to stay on top, you will really have to change with it
-- embrace that world and you’ll probably find a way to enjoy it
-- this is what I did too when I got laid off last year as the company that I worked for shifted to A.I.
-- I decided to explore this world, find my own way and my own place
-- I’m not abandoning my test engineer mindset, I’m just expanding it with new knowledge
+- pravda je, že ak chcete ukradnúť prácu A.I., nestane sa to rovnakým spôsobom, ako sme si mysleli, že A.I. zoberie naše práce
+- A.I. je tu, aby zostala, a budeme sa musieť naučiť s ňou žiť
+- vaša práca ako testera sa bude transformovať, a aby ste zostali na vrchole, budete sa musieť naozaj zmeniť s ňou
+- prijmite tento svet a pravdepodobne nájdete spôsob, ako si ho užiť
+- toto som urobil aj ja, keď ma minulý rok prepustili, keď sa spoločnosť, pre ktorú som pracoval, presunula k A.I.
+- rozhodol som sa preskúmať tento svet, nájsť svoju vlastnú cestu a svoje vlastné miesto
+- neopúšťam svoju mentalitu test inžiniera, len ju rozširujem o nové znalosti
 
-- and to finish it off, there’s actually a funny ending in my story
-- I got my job back
-- on Monday I’m starting as a contractor back at Replay, and I will be teaching the community about A.I. and ways to implement it for creating your app
-- and I’m going to continue on to teach the wonderful community of testers
+- a na záver je v mojom príbehu vlastne vtipný koniec
+- dostal som svoju prácu späť
+- v pondelok začínam ako kontraktor späť v Replay, a budem učiť komunitu o A.I. a spôsoboch jej implementácie pre vytváranie vašej aplikácie
+- a budem pokračovať v učení úžasnej komunity testerov
 -->
 
 ---
 layout: cover
 ---
 
-# Thank you
+# Ďakujem
