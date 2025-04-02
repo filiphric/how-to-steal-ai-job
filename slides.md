@@ -152,8 +152,8 @@ layout: center
 # Changes in job market
 <p></p>
 
-![job postings](./job-postings.png){class="h-100 mx-auto"}
-![job postings article](./job-postings-qr.png){class="h-20 right-10 bottom-15 absolute"}
+![job postings](/job-postings.png){class="h-100 mx-auto"}
+![job postings article](/job-postings-qr.png){class="h-20 right-10 bottom-15 absolute"}
 <!-- 
 - these are software development job postings (USA, but the graph is very similar to the rest of the world, check source)
 - are now back to pre-covid era
@@ -178,7 +178,7 @@ layout: center
 # A.I. revolution
 <p></p>
 
-![job postings](./chatgpt-introduction.png){class="h-100 mx-auto"}
+![job postings](/chatgpt-introduction.png){class="h-100 mx-auto"}
 
 <!-- 
 - open AI introduces chatGPT and the world is blown away
@@ -356,7 +356,7 @@ layout: cover
 # Navigating A.I. space as a test engineer
 ## Highlight reel effect
 
-![highlight reel effect](./highlight-reel-effect.png){class="w-40% h-auto"}
+![highlight reel effect](/highlight-reel-effect.png){class="w-40% h-auto"}
 
 <!-- 
 - there’s something called the highlight reel effect
@@ -422,7 +422,7 @@ layout: cover
 layout: cover
 ---
 
-![](./ai-jobs.png)
+![](/ai-jobs.png)
 <!-- 
 - there’s also an interesting trend that seem to suggest that AI jobs are on the rise
 - the curves on this graph look kinda similar to the one I showed earlier
