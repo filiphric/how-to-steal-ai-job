@@ -144,11 +144,12 @@ Technically, A.I. did steal my job
 
 <!-- 
 - it just didn’t happen the way I imagined it would
+- it wasn’t that some AI robot was put in my chair and filled in my position
 - and I wasn’t alone 
   - my friends over at my previous job got laid off, 
   - I read about layoffs practically every day
   - there were thousands of engineers and testers being laid off
-- it wasn’t that some AI robot was put in my chair and filled in my position
+
 - I needed to start paying attention, because this thing is real
 - and I suggest you start paying attention too if you haven’t already, 
   - because although I’m standing here being in this unique position, I can tell you, my story isn’t unique
@@ -370,7 +371,7 @@ layout: default
 
 ## - The perfect storm
 
-<Block class="bg-white text-xl mt-10">
+<Block class="bg-white text-xl mt-10 w-100">
   <ul>
     <li>hybrid, remote and smaller teams</li>
     <li>AI-powered tooling</li>
@@ -378,6 +379,8 @@ layout: default
     <li>software development becoming more accessible</li>
   </ul>
 </Block>
+
+<img src="/karpathy.png" class="w-120 absolute right-0 top-25 " />
 
 <!-- 
 - this sounds crazy, but see that software development is becoming more accessible to non-developers
@@ -397,7 +400,7 @@ description: (duplicate)
 
 ## - The perfect storm
 
-<Block class="bg-white text-xl mt-10">
+<Block class="bg-white text-xl mt-10 w-100">
   <ul>
     <li>hybrid, remote and smaller teams</li>
     <li>AI-powered tooling</li>
@@ -405,6 +408,8 @@ description: (duplicate)
     <li>software development becoming more accessible</li>
   </ul>
 </Block>
+
+<img src="/karpathy.png" class="w-120 absolute right-0 top-25 " />
 
 <!-- 
 - and in a room full of testers I can almost feel the tension
