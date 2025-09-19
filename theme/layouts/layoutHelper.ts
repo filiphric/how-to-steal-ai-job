@@ -9,15 +9,15 @@ export function resolveAssetUrl(url: string) {
   return url
 }
 
-export function handleBackground(background?: string, dim = false): CSSProperties {
-  const isColor = background && ['#', 'rgb', 'hsl'].some(v => background.indexOf(v) === 0)
+export function handleBackground(background?: string, dim = false, backgroundSize = 'cover'): CSSProperties {
+  const isColor = background && (background[0] === '#' || background.startsWith('rgb'))
 
   const style = {
     background: isColor
       ? background
       : undefined,
     color: (background && !isColor)
-      ? 'white'
+      ? 'transparent'
       : undefined,
     backgroundImage: isColor
       ? undefined
@@ -28,7 +28,7 @@ export function handleBackground(background?: string, dim = false): CSSPropertie
         : undefined,
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
-    backgroundSize: 'cover',
+    backgroundSize,
   }
 
   if (!style.background)

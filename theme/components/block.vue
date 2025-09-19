@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[#4D9E95] rounded-lg py-1 px-3 border-2 border-black custom-block ">
+  <div class="bg-primary  py-1 px-3 border-2 border-black custom-block font-extrabold">
     <slot />
   </div>
 </template>

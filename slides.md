@@ -4,48 +4,56 @@ title: How to steal A.I.’s job
 transition: fade
 mdc: true
 layout: cover
+fonts:
+  sans: Syne
+  serif: Poppins
+  mono: Fira Code
+themeConfig:
+  primary: '#F48487'
+  secondary: '#00B6B1'
 ---
 
 # How to steal A.I.’s job
 
-<Block class="absolute top-10 left-10">
-filiphric.com/testcrunch
-</Block>
+---
+layout: default
+---
+Hi, my name is Filip and in the summer of 2024 A.I. took my job.
+
+8 months before that happened I started working for a startup company called Replay that was going to revolutionize the way how we understand the web. We were building debugging tools. Maybe this doesn’t sound that exciting, but this was the usual reaction when engineers spent some time with our technology
 
 ---
-layout: cover
+layout: default
 ---
 
-![test-crunch](/test-crunch.png){class="w-170 absolute top-30 -left-10"}
-
-<Block class="absolute top-10 right-10 bg-[#F2CD5E] text-5xl">
-DevTools of the future
-</Block>
-
-
-<!--
-- photo from last year
-- I spoke about test automation specifically on automation practices and mistakes
-- I worked for a company called Replay (see the hat) and on the stage I showed how you can debug your application
-- Replay is this tool that allows you to record the whole runtime of the application and examine the code line by line
-- it was all very technical, and I enjoyed the heck of it
-- I loved how Replay went deep into the nitty-gritty, it was pure engineering and all around fun
-- honestly it was a dream job - doing developer relations, going to conferences, talking test automation and development
-- but then
--->
+![replay reaction](/replay-reaction.jpg)
 
 ---
-layout: cover
+layout: default
 ---
 
-![replay-layoff](/replay-layoff.png){class="w-100 border-2 border-black rounded-lg relative left-20"}
-<Block class="absolute top-60 right-30 bg-[#EA4C88] text-5xl">
-Laid off
-</Block>
+I personally joined the company because my reaction was very similar.
 
+I saw that the technology behind Replay could solve the never-ending problem of flaky tests.
 
-<!--
-- unfortunately I got laid off
+I basically asked the CEO if they want me on the team as a developer relations guy.
+
+And that’s how I landed my dream job.
+
+I spent next months travelling all around the world, speaking at conferences, getting to know great people, making content whether that was a blog, video or documentation.
+
+But you already know how this story continues.
+
+---
+layout: default
+---
+
+![replay-layoff](/replay-layoff.png){class="w-[80%] border-2 border-black rounded-lg mx-auto -mt-10"}
+
+---
+layout: default
+---
+
 - I was devastated
 - I lost the job I loved
 - I now had to fear about the future, 
@@ -54,140 +62,166 @@ Laid off
   - I just booked a holiday for us, which is a very pricey thing for family of this size
 - I also thought that Replay was a groundbreaking innovation that was absolutely needed in the world
 - I hated the fact that we are giving up on that mission
-- the problem 
+
+---
+layout: default
+---
+
+- the company decided to pivot because
   - sales didn’t go very well, we didn’t hit our goals, 
-  - we had hard time explaining the value, 
+  - we had hard time explaining the value 
   - our product was kinda slow and 
   - it seemed like in general, people don’t care about flaky tests all that much
 - that was the reason why company decided to pivot
 - it laid off 7 of the 14 engineers, myself included 
-- and has decided to shift the focus to
--->
+- and has decided to shift the focus to A.I.
+- that’s how it happened, this is how you actually lose your job to A.I.
 
 ---
-layout: fact
+layout: default
 ---
 
-
-<Block class=" bg-[#F2CD5E] text-7xl">
-A.I.
-</Block>
-
-<!--
 - and I absolutely hated that, I was angry
 - what do you mean AI?
 - here we are, creating this amazing engineering marvel, 
-  - these revolutionaly developer tools and 
+  - these revolutionaly developer tools that help testers and developer produce real high quality software 
   - you’re just going to throw all that away and and focus on AI whatever that means?
--->
+- to me this felt like a betrayal of everything I believed in
+- we stopped focusing on testing, as so many companies do and started focusing on AI - ugh!
 
 ---
-layout: cover
+layout: default
 ---
-
-<Block class="text-7xl bg-[#F1F233]">
-Reflection
-</Block>
-
-<!-- 
-- but I took a deep breath, took a step back, dealt with the reality of it all and reflected
-- because the thing is, when things get emotional, it’s easy to think I’m smart and the other side is dumb
-- I tried to excercise the practice
-  - if there’s a thing that makes me angry or when I think something is just stupid, I try think about the other perspectives
-- so I thought I need to figure this out
-- why have these people in Silicon valey that I worked for decided to focus on AI? Why now? What are they thinking? What do they see that I don’t?
-- it takes a little mental practice to ask this questions and to admit - hey maybe I’m wrong, and maybe they are right
-- it felt really hard
-  - I didn’t feel like this AI hype is something I should be part of
-- after all... 
--->
----
-layout: cover
----
-
-# I am a Test engineer!
-
-<Block>
-what the hell am I supposed to do with this A.I. stuff anyway?
-</Block>
-
-<!-- 
-- **what the hell am I supposed to do with this A.I. stuff anyway?**
-- maybe you also felt that way, 
-  - or maybe you still feel this way
-- what even is this A.I. thing and how does it affect me?
-- I was laid off in July last yeat year - this was year and a half since chatGPT got released and while 
-  - it was a fun thing that could help write silly poems 
-  - and maybe a little bit of code, 
-  - after a time it felt like it got dumber 
-  - and I could not do any useful work with it
-- I thought it’s not really worth spending too much time on and I genuinely thought I shouldn’t be concerned with it
-- after all... **I’m a test engineer!**
-- I test stuff and I take a big pride in that!
-  - all you linkedin influencers can go AI this AI that, at the end of the day, it cannot do anything useful
-  - you cannot vibe code your way into quality software
-  - if you’re going to generate a ton of code guess who’s going to test that?
-  - ME!
-  - who’s going to write tests for it?
-  - ME!
-- so you can say **AI is going to take my job** all day, you’ll still need someone to make sure it works, right? RIGHT?
-- but then I thought about it and realized... wait a minute
- -->
+- and it hit me both personally and professionally
+- as a tester I care a lot about code quality
+- and I saw the quality that A.I. produces - you all know that, it’s not very good
+- it felt to me, like I just lost the battle between human and AI and world is going to hell
 
 ---
-layout: cover
+layout: default
+---
+- if I were to sum it up, I think these were the main three emotions:
+  - fear - uncertainty of what is happening in markets
+  - confusion - how does anyone in their right mind think A.I. is going to do better than humans
+  - pessimism - I saw this is actually happening and don’t see any way out of it all
+
+- I feel like maybe a story like this resonates
+- because unless you worked for OpenAI, there’s a chance that A.I. wave caught you off guard
+- or at least you might have been feeling that it is overstated and overhyped
+
+---
+layout: default
+---
+Poll:
+How many of you feel similar emotions towards A.I.?
+- confusion
+- fear
+- pessimism
+
+- you probably came to this talk because the title has a hints of a happy end in it
+- my personal goal for this talk is to flip this emotions
+- and turn them into opposites
+
+---
+layout: default
 ---
 
-<Block class="bg-[#FF5A36] text-7xl text-align-center py-7">
-Technically, A.I. did steal my job
-</Block>
+- there’s a funny thing about opposites, they are sometimes not very intuitive and you can have multiple of them
+- one may say that the opposite of "darkness" is "light", but you could also say it’s "color"
+- in the same way the opposite of "silence" is not just "noise" or "sound", but it’s also "music"
+- so when we talk about A.I. and the emotions it brings
 
-<!-- 
-- it just didn’t happen the way I imagined it would
+- I would like to take you on a bit of a journey and hope fully those that raised their hands will find themselves on the opposit side of these emotions
+
+- confusion -> clarity (by education)
+- fear -> hope (there is a place for you in the A.I. future)
+- pesimism -> activation (embrace the learning mindset)
+
+---
+layout: default
+---
+
+# Getting clarity
+
+- at the time when I was laid off I didn’t have any understanding of AI
+- used chatGPT a bit, but my experience was that it was not very good
+- but this thing was the reason why I was laid off, so I thought I need to understand my enemy
+- the thing about AI is that it has this mythical property to it, we give it human like properties - intelligence, creativity, reasoning, problem solving, etc.
+- I think this really muddies the waters, and I believe it’s important to get a proper understanding what AI is, and where it’s true power lies
+- in order to not fear AI, we need to understand what it is and get a good mental model
+- I recommend watching video by Andrej Karpathy - it’s 3 and a half video explaining how to build chatGPT
+- if there was a certificate on chatGPT, it would include watching this video, it’s amazing
+- of course I don’t have 3 hours to explain all this so I’m going to give you a mental model that I would give to my mom when I explain AI, especially LLMs
+
+---
+layout: default
+---
+
+# finish the sequence
+1, 3, 5, 7, 9, 11, 13, ...
+
+---
+layout: default
+---
+
+# finish the sequence
+red, orange, yellow, green, blue, (indigo, violet)
+
+---
+layout: default
+---
+
+# finish the sequence
+roses are red, 
+violets are blue,
+AI took my job
+...
+(it will take yours too)
+
+---
+layout: default
+---
+- so how come we can ask chatGPT a question?
+- well because we have taught it what a conversation looks like
+- and if we ask it to build us an app, it will respond with a code for that app
+- and once AI can do this, we can get creative and plug in this power into all kinds of tooling, AI builders, chatbots, tools like NotebookLM and so on that specialize in various tasks
+- and it’t the variety of tasks that can be accomplished by this that makes this technology so impactful
+
+![chatgpt usage](/chatGPT_usage.jpeg)
+
+---
+layout: default
+---
+
+# What is happening?
+
+- as I said, my job was lost due to AI, but it didn’t happen the way it is usually advertised on social media
 - it wasn’t that some AI robot was put in my chair and filled in my position
-- and I wasn’t alone 
+- and over past couple of months it felt like I wasn’t alone
   - my friends over at my previous job got laid off, 
   - I read about layoffs practically every day
   - there were thousands of engineers and testers being laid off
-
-- I needed to start paying attention, because this thing is real
-- and I suggest you start paying attention too if you haven’t already, 
-  - because although I’m standing here being in this unique position, I can tell you, my story isn’t unique
-- and I’m not saying this because I want you to be scared
-- I’m saying this because 
-  - I want you to be aware 
-  - I want you to be ready
-- things are happening, and they are happening now
--->
-
----
-layout: cover
----
-
-# The perfect storm
-
-<Block class="bg-white text-3xl">
-<ul>
-<li>changes in job market</li>
-<li>A.I. revolution</li>
-<li>job transformation</li>
-</ul>
-</Block>
-
-<!-- 
-- there’s a perfect storm happening right now on the job market and we are in the middle of it
-
-- there are changes in job market
-- we are living through AI revolution
-- this results in job transformation
--->
+  - just show of hands, how many of you know someone who has been laid off in the past year?
 
 
 ---
 layout: default
 ---
 
-# Changes in job market
+# The perfect storm
+
+- we could blame this on AI, but the reality of it is a bit more complex
+- there are three factors playing role
+
+- there are changes in world market
+- we are living through AI revolution
+- this results in job transformation
+
+
+
+---
+layout: default
+---
 
 <Block class="px-0 py-0 bg-white mt-10">
 <img src="/job-postings.png" class="h-90 mx-auto">
@@ -198,7 +232,6 @@ layout: default
 <span class="text-xs text-center mx-auto block pt-2">source</span>
 </Block>
 
-<!-- ![job postings](/job-postings.png){class="h-100 mx-auto"} -->
 <!-- 
 - these are software development job postings (USA, but the graph is very similar to the rest of the world, check source)
 - are now back to pre-covid era
@@ -220,17 +253,16 @@ layout: default
 layout: default
 ---
 
-# A.I. revolution
 <Block class="px-0 py-0 bg-white mt-10 mx-auto block">
 <img src="/chatgpt-introduction.png" class="h-90">
 </Block>
 
 <!-- 
-- open AI introduces chatGPT and the world is blown away
-- remember, remember 30th of November
+- 30th of November open AI introduces chatGPT and the world is blown away
 - of course, there’s a ton of hype around this, some of it is reasonable, some if it is not
 - but many companies have decided to place the bet and shift to AI (the company I worked for included)
 - and some companies saw a real opportunity, while some were pressured down by investors
+- imagine for a moment that you are an investor
 - but either way, as a result many companies decided to become AI companies
   - in process, some decide to cut staff to make room for this new AI revolution
 -->
@@ -238,8 +270,6 @@ layout: default
 ---
 layout: default
 ---
-
-# A.I. revolution
 
 <Block class="px-0 py-0 bg-white mt-10 mx-auto block">
 <img src="/chatgpt-introduction.png" class="h-90">
@@ -254,8 +284,8 @@ Mark Zuckerberg
 <!-- 
 - a good example of this is Meta 
   - laid off nearly one fourth of it’s workforce (11K in 2022, 10K in 2023)
-  - and you’d think that when a company lays off so many people, it’s on the edge of existence right?
-  - actually no. beginning of 2024, Meta announced their record earnings
+  - in normal times, when a company lays off so many people, it’s on the edge of existence right?
+  - but we are not living normal times - beginning of 2024, Meta announced their record earnings
 - Meta has trippled their earnings
   - from 2023 to 2024, Meta has put 723 Billion to their market capital 
   - o put that into perspective that’s three Netflixes over the period of one year
@@ -266,13 +296,12 @@ Mark Zuckerberg
   - Meta is going full throttle with this
   - if you don’t have AI knowledge, you’re not Meta material
 -->
+
 ---
 layout: default
 ---
 
 # Job transformation
-
-## - The perfect storm
 
 <Block class="bg-white text-xl mt-10">
 <ul>
@@ -300,268 +329,14 @@ layout: default
 ---
 layout: default
 ---
-
-# Job transformation
-
-## - The perfect storm
-
-<Block class="bg-white text-xl mt-10">
-  <ul>
-    <li>hybrid, remote and smaller teams</li>
-    <li>AI-powered tooling</li>
-  </ul>
-</Block>
-
-<Block class="bg-[#EE7A5B] absolute bottom-12 right-25 h-30 w-30 rotate-1 flex items-center justify-center">
-<img src="/cursor.png" class="p-4 w-full h-full object-contain">
-</Block>
-
-<Block class="bg-[#23A093] absolute bottom-55 right-50 h-30 w-30 -rotate-1 flex items-center justify-center">
-<img src="/windsurf.png" class="p-4 w-full h-full object-contain">
-</Block>
-
-<Block class="bg-[#FEA8E7] absolute bottom-95 right-20 h-30 w-30 rotate-1 flex items-center justify-center">
-<img src="/copilot.png" class="p-4 w-full h-full object-contain">
-</Block>
-
-
-<!-- 
-- another factor that is transforming the way we work is of course A.I. we now have tooling such as
-- cursor, copilot, windsurf,... basically every IDE is now A.I. powered
-- we see rise of agentic A.I., wide adoption of MCP servers
--->
-
----
-layout: default
----
-
-# Job transformation
-
-## - The perfect storm
-
-<Block class="bg-white text-xl mt-10">
-  <ul>
-    <li>hybrid, remote and smaller teams</li>
-    <li>AI-powered tooling</li>
-    <li>writing code is different</li>
-  </ul>
-</Block>
-
-
-<img src="/dario.png" class="w-75 absolute right-40 -top-1" v-click/>
-<img src="/gary-tan.png" class="w-82 absolute right-0 top-36 " v-click/>
-<img src="/amjad.png" class="w-70 absolute right-40 top-65 " v-click/>
-<!-- 
-
-- writing code is different 
-- Anthropic’s CEO Dario Amodei famously said two weeks ago that 
-  - in 3-6 months, 90% of the code will be AI-generated 
-  - and within 12 months it’s going to be essentially all the code
-- he’s a CEO of AI company, he has to say that, but we have other people saying this too 
-- Garry Tan, the CEO of Y combinator says pretty much the same, 
-- CEO of Replit Amjad Masad said last week that you shouldn’t even learn to code
-
--->
-
----
-layout: default
----
-
-# Job transformation
-
-## - The perfect storm
-
-<Block class="bg-white text-xl mt-10 w-100">
-  <ul>
-    <li>hybrid, remote and smaller teams</li>
-    <li>AI-powered tooling</li>
-    <li>writing code is different</li>
-    <li>software development becoming more accessible</li>
-  </ul>
-</Block>
-
-<img src="/karpathy.png" class="w-120 absolute right-0 top-25 " />
-
-<!-- 
-- this sounds crazy, but see that software development is becoming more accessible to non-developers
-- at this point, you probably hear the term "vibe-coding"
-- a term first mentioned by Andrej Karpathy, 
-  - where you essentially switch the driver seat with AI, and just let it do it’s thing, 
-  - generate code, forget the code even exists, 
-  - just give in to the vibes and create your app
--->
-
----
-layout: default
-description: (duplicate)
----
-
-# Job transformation
-
-## - The perfect storm
-
-<Block class="bg-white text-xl mt-10 w-100">
-  <ul>
-    <li>hybrid, remote and smaller teams</li>
-    <li>AI-powered tooling</li>
-    <li>writing code is different</li>
-    <li>software development becoming more accessible</li>
-  </ul>
-</Block>
-
-<img src="/karpathy.png" class="w-120 absolute right-0 top-25 " />
-
-<!-- 
-- and in a room full of testers I can almost feel the tension
-  - oh boy that’s not going to end well, how good can code created like this be?
-- I will choose to answer this with a question
-  - how good is the code written today?
-- at this point consulted and seen the code of tens of different companies and 
-  - you’d be surprised at the quality of code of some companies that earn millions in revenues
-- the point I’m making, is that 
-  - there are legit businesses built on questionable code quality 
-  - and there are more and more people entering the tech world without knowing how to code 
-- that’s just the reality of it 
--->
-
----
-layout: cover
----
-
-# The perfect storm
-
-<Block class="bg-white text-3xl">
-<ul>
-<li>changes in job market</li>
-<li>A.I. revolution</li>
-<li>job transformation</li>
-</ul>
-</Block>
-
-
-<!-- 
-- so these are the changes that we are facing
-- we are living through a perfect storm that’s changing everything
-- although we wouldn’t believe it, A.I. is affecting our jobs and some of us are even losing it
-- so the question is - what can we do? how do we get our jobs back?
-- I want to provide some answers
-- or suggestions that I think might be the answers
-  - I want you to leave this conference with a little bit of hope
-- and I’ll split this again into three parts and give some advice for each part
--->
-
----
-layout: cover
----
-
-# What do to
-
-- how to navigate through the A.I. space as a test engineer
-- what are the skill you posses today that can help you
-- how to practically apply your knowledge
-
-<!-- 
-- first, we’ll take a look at how you can navigate all the AI stuff as a test engineer
-- then we’ll take a look at the skillset of a tester and talk about all the stuff you already posses today and I’ll show you how not only you can survive, but how you can actually thrive
-- and finally we’ll take a look at what you can do today to be successful
--->
-
----
-layout: cover
----
-
-# Navigating A.I. space as a test engineer
-
-<!-- 
-- who feels like they have not been able to keep up with all the AI news?
-- if you feel like everything is moving too fast, you are not alone
-- ít seems like every day there’s some ground breaking revolution happening in AI
-- just last week we had new image model from open AI
-- we got deepseek, anthropic, gemini, grok pushing new models what seem like every day
-- and if you look on linkedin or other social media, you might feel like everyone is doing cool stuff with AI
-- you might feel like you missed the train
-- I want to assure you, that you are probably not missing out
--->
-
----
-layout: cover
----
-
-# Highlight reel effect
-<p></p>
-
-![highlight reel effect](/highlight-reel-effect.png){class="w-60% h-auto mx-auto"}
-
-<!-- 
-- there’s something called the highlight reel effect
-- it’s this sense of falsified reality - a feeling that everyone else is living happy and perfect life
-- when in reality, we only see what people want to show and edit all the bad stuff
-- but our brains don’t seem to process that too well and make us feel like we are missing out
-- same thing might be happening to us in relation to AI and the speed of it’s development
-- we are seeing how AI is doing crazier and crazier stuff every day
-- but here’s something that you maybe don’t hear every day 
-  - in fact, you probably keep hearing the opposite
--->
-
----
-layout: cover
----
-
-# It’s ok to be late on A.I. trends
-
-<img src="/ooda.png" class="w-80 mx-auto"/>
-
-<!-- 
-- I don’t want you to completely ignore A.I. 
-- but jumping from AI hype to AI hype is just not healthy
-- you’ll get overwhelmed and it will be hard to learn anything
-- I still think you should learn and keep an eye on the general trends
-- you can practice something called OODA loop which is a decision-making model developed by United States Air Force
-- this allowed Air force pilots to quickly act in combat following the four steps
-  - observe, orient, decide, act
-  - if you simply jump on every hype train, you’ll be jumping between the top two all the time
-  - but actually spending some mental energy on orienting, studying the situation, you’ll be able to decide better and act better
-  - if it’s good for fighter jet pilots it’s good for you too
--->
-
----
-layout: cover
----
-
-# My advice: Don’t try to be first, but be aware
-
-<!-- 
-- so my advice is: Don’t try to be first, but be aware
--->
-
-
----
-layout: default
----
-
-# You possess many skills that are required for the age of A.I.
-
-<Block class="bg-white text-xl mt-10 w-100">
-  <ul>
-    <li>validation skills</li>
-    <li>bias detection</li>
-    <li>problem definition and solution identification</li>
-    <li>red-reaming mentality</li>
-  </ul>
-</Block>
-
-<img src="/dona.png" class="absolute right-5 top-20 w-110"/>
-
-<!-- 
-- my second advice would be to deepen your expertise
-  - it’s becoming more important in the age of AI, not less
-- I’m going to cite from Dona Sarkar’s talk I hear last year
-- because she pointed out that there are lot of skills you have today, that will be needed in the age of AI
-  - validation skills - ensuring that a system or product functions as expected
-  - Bias Detection - QA professionals are great at identifying potential issues and edge cases
-  - Problem Definition and Solution Identification 
-  - red-teaming mentality - being able to identify risks - how many of you think of security when we talk about AI?
--->
+- but many companies know, that AI is the future, they are pushing their engineers to become AI fluent
+- a great example is shopify
+  - cursor being used outside of engineering finance, sales, support - using cursor
+  - building MCPs
+  - shopify gives no limits on tokens for their employees, in fact they award those that spend the most
+- Block
+  - scaled MCP to 12k employees in two months
+- I think this is truly inspiring
 
 
 --- 
@@ -588,29 +363,194 @@ layout: cover
 
 <!-- 
 - The need for excellence is not going anywhere
+- there’s a lot that you can offer as testers
+- so let’s tap into that one and deconstruct tester’s expertise
+- how to navigate through the A.I. space as a test engineer
 -->
 
 ---
 layout: cover
 ---
 
-# How to practically apply your knowledge
+# Navigating A.I. space as a test engineer
 
 <!-- 
-- but if you’re not in the mood for jumping into your next AI job, I want to show you how you can use AI today
-- let’s take a look at a test automation problem and see if we can solve it in couple of minutes
-- Petr Svoboda told us we should learn to use AI powered tools and I’m hoping I can persuade you to do that today
+- who feels like they have NOT been able to keep up with all the AI news?
+- if you feel like everything is moving too fast, you are not alone
+- ít seems like every day there’s some ground breaking revolution happening in AI
+- nano banana from, veo 3, chatgpt 5
+- we got deepseek, anthropic, xAI pushing new models what seem like every week
+- and if you look on linkedin or other social media, you might feel like everyone is doing cool stuff with AI
+- you might feel like you missed the train
+- I want to assure you, that you are probably not missing out
 -->
 
 ---
 layout: cover
 ---
 
-# Demo
+# Highlight reel effect
+<p></p>
+
+![highlight reel effect](/highlight-reel-effect.png){class="w-60% h-auto mx-auto"}
 
 <!-- 
-- convert tests from cy to pw, add selectors
+- there’s something called the highlight reel effect
+- it’s this sense of falsified reality - a feeling that everyone else is living happy and perfect life
+- when in reality, we only see what people want to show and edit all the bad stuff
+- it’s like that friend from high school that spent fridays drinking and now somehow owns Tesla
+- but our brains don’t seem to process that too well and make us feel like we are missing out
+- same thing might be happening to us in relation to AI and the speed of it’s development
+- we are seeing how AI is doing crazier and crazier stuff every day
+- but here’s something that you maybe don’t hear every day 
+  - in fact, you probably keep hearing the opposite
+
+# It’s ok to be late on A.I. trends
+
+- I don’t want you to completely ignore A.I. 
+- but jumping from AI hype to AI hype is just not healthy
+- you’ll get overwhelmed and it will be hard to learn anything
+- I still think you should learn and keep an eye on the general trends
+- experiment with what interests you
+- because there are different kinds of testing and different kinds of testers
+- everyone posseses skills that can be multiplied by AI
+- so let’s take a look at those skills, and why they matter
 -->
+
+
+---
+layout: default
+---
+
+- validation and bias detection skills
+
+```python
+import anthropic
+
+inquiries = [
+    {"text": "This is the third time you've messed up my order. I want a refund NOW!", "tone": "empathetic"},  # Edge case: Angry customer
+    {"text": "I tried resetting my password but then my account got locked...", "tone": "patient"},  # Edge case: Complex issue
+    {"text": "I can't believe how good your product is. It's ruined all others for me!", "tone": "professional"},  # Edge case: Compliment as complaint
+    # ... 97 more inquiries
+]
+
+client = anthropic.Anthropic()
+
+def get_completion(prompt: str):
+    message = client.messages.create(
+        model="claude-opus-4-1-20250805",
+        max_tokens=2048,
+        messages=[
+        {"role": "user", "content": prompt}
+        ]
+    )
+    return message.content[0].text
+
+def evaluate_likert(model_output, target_tone):
+    tone_prompt = f"""Rate this customer service response on a scale of 1-5 for being {target_tone}:
+    <response>{model_output}</response>
+    1: Not at all {target_tone}
+    5: Perfectly {target_tone}
+    Output only the number."""
+
+    # Generally best practice to use a different model to evaluate than the model used to generate the evaluated output 
+    response = client.messages.create(model="claude-sonnet-4-20250514", max_tokens=50, messages=[{"role": "user", "content": tone_prompt}])
+    return int(response.content[0].text.strip())
+
+outputs = [get_completion(f"Respond to this customer inquiry: {inquiry['text']}") for inquiry in inquiries]
+tone_scores = [evaluate_likert(output, inquiry['tone']) for output, inquiry in zip(outputs, inquiries)]
+print(f"Average Tone Score: {sum(tone_scores) / len(tone_scores)}")
+```
+
+<!-- 
+- validation and bias detection skills
+- you already got this, every tester can validate software and look for edge cases
+- what’s happening now is that software is becoming less deterministic and more goal oriented
+- if you put the same prompt into chatgpt, you’re not getting the same response however hard you try
+- if you are testing a chatbot, you’re not going to be successful with selenium playwrgiht cypress, webdriverio or any test automation tool for that matter
+- anthropic actually has a really good explanations on how to test ai responses
+- they more often referred to as evals
+- DEMO
+- if you are doing exploratory testing this is pretty much what you’ve been doing the whole time
+- but now instead of writing deterministic test cases, you evalueate responses
+- you check for edge cases, you got this, this is your job
+-->
+
+
+---
+layout: default
+---
+
+# risk and security assesment
+
+- this is something that is close to your hearts probably - when talking about AI, security is always a concern
+- and you are not alone, and I would say this is one of the most exciting areas of AI for testers (and most paid)
+- if you want to explore it, there’s this great Gandalf game on the internet
+- I asked ChatGPT for advice on how to jailbreak it
+- protections
+  - evaluate user’s content
+  - filter jailbreaking patterns
+  - handle responses
+  - multi-layered protection
+
+https://docs.claude.com/en/docs/test-and-evaluate/strengthen-guardrails/mitigate-jailbreaks#example-harmlessness-screen-for-content-moderation
+
+---
+layout: default
+---
+
+# problem definition and solution identification
+
+- we hear CEOs of big AI companies saying how A.I. is going to write 90% of our code, which feels scary
+- because even the most caring developer can create a bug, so how bad a careless AI will be? it’s genuinely scary
+- but it’s also scary for other reasons - we as testers were barely able to keep up with the dev output when they were writing code manually, what’s going to happen when 90% of the code will be written by AI?
+- well I’ll tell you what’s going to happen. we are also going to write code with A.I.
+- but Filip, chat GPT cannot even write good test cases, it’s really really dumb
+- no it isn’t, it just lacks proper context
+- two things you need to know about context
+  - if it gets too big, it gets too dumb (there’s actually a research on this, even though models claim they can handle 500k or million tokens, they have hard time making connections over 30k)
+  - you need to learn about context engineering - Tobi Lutke (Shopify CEO) describes it as "the art of providing all the context for the task to be plausibly solvable by the LLM.” and he is right.
+
+- basically context engineering is making sure you play smart with your context
+- https://github.com/ai-that-works/ai-that-works/tree/main/2025-08-05-advanced-context-engineering-for-coding-agents
+- here’s your new testing pyramid (actually not a testing pyramid)
+- so where is testers place in all of this?
+  - making plans, defining solutions, reviewing research results, identifying outcomes
+  - do this with your devs and you are a golden part of your team
+  - even better, do this with your test automation
+
+![context pyramid](/pyramid.png)
+
+---
+layout: default
+---
+
+# test automation
+- even though we might be entering era where lots of our software is less deterministic than it used to be, we still write a lot of software that follows basic user stories
+- DEMO
+
+---
+layout: default
+---
+
+# quality engineering
+
+- by this time you probably hear the term vibe-coding
+- I’ve seen this term being used in many different ways
+- the most simple was is on a scale of "vibe <–- --> coding" the more you are on left, the less code you see
+- there are platforms out there - lovable, bolt, base44, replit
+- I’m part of a team that is building a vibe-coding platform
+- basically you build an app just by prompting it, you one click deploy etc
+- it baffles me how none of these platforms write tests
+- they let AI build their app - and AI can do a pretty good job, but then you do one click and the whole thing crashes
+- what we have created is this loop between builder agent and testing and debugging agent, every feature is tested, and if it fails for some reason, we fix it so you end up with a fully functional application - this is the power of tests
+
+---
+layout: default
+---
+
+clarity - hope - activation
+
 
 ---
 layout: cover
@@ -629,7 +569,7 @@ layout: cover
 
 - and to finish it off, there’s actually a funny ending in my story
 - I got my job back
-- on Monday I’m starting as a contractor back at Replay, and I will be teaching the community about A.I. and ways to implement it for creating your app
+- Replay, and I will be teaching the community about A.I. and ways to implement it for creating your app
 - and I’m going to continue on to teach the wonderful community of testers
 -->
 
