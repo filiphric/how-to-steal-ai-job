@@ -941,6 +941,102 @@ sequenceDiagram
 layout: default
 ---
 
+# Test automation
+
+<!-- 
+- even though we might be entering era where lots of our software is less deterministic than it used to be, we still write a lot of software that follows basic user stories
+- developers are still writing applications that need test automation
+- that test automation needs to be good and it’s not going to get good by accident
+- it needs to be steered, it needs to be guided
+- as I said, we all have had the experinece of chatgpt or some other AI acting dumb
+- that is not AI’s fault, that is the result of poor engineering
+- and I’m not placing blame on anyone here, we are all new to this stuff we are still learning
+- a great way of building an intuition around A.I. is to start with an AI powered IDE such as Cursor and start creating rules and workflows
+-->
+
+---
+layout: default
+clicks: 2
+---
+
+<div
+v-motion
+  :enter="{ y: 0, scale: 1, x: 0, transition: {
+      type: 'fade'
+    }
+  }"
+  :click-1="{ y: 59, scale: 1.5, x: 220, transition: {
+      type: 'fade'
+    }
+  }"
+  :click-2="{ y: 0, scale: 1, x: 0, transition: {
+      type: 'fade'
+      }
+    }"
+  >
+<img src="/cursor_rules.png" />
+</div>
+
+<style scoped>
+  .slidev-layout {
+    @apply p-0;
+    background-color: #1B1B1B !important;
+  }
+</style>
+
+<!-- 
+- rules are the missing piece of your workflow
+- this is where you apply your test automation knowledge
+- for example, a very simple rule like this for selectors can be created
+-->
+
+---
+layout: default
+clicks: 3
+---
+
+<div
+v-motion
+  :enter="{ y: 0, scale: 1, x: 0, transition: {
+      type: 'fade'
+    }
+  }"
+  :click-1="{ y: 59, scale: 1.5, x: 220, transition: {
+      type: 'fade'
+    }
+  }"
+  :click-2="{ y: 300, scale: 2, x: -490, transition: {
+      type: 'fade'
+      }
+    }"
+  :click-3="{ y: 0, scale: 1, x: 0, transition: {
+      type: 'fade'
+    }
+  }"
+  >
+<img src="/cursor_workflow.png" />
+</div>
+
+
+
+<style scoped>
+  .slidev-layout {
+    @apply p-0;
+    background-color: #1B1B1B !important;
+  }
+</style>
+
+<!-- 
+- but you can take it even further and create whole workflows
+- these help A.I. get it, they will steer it in the right path
+- remember how I explained A.I. with the sequence of numbeers? workflows are basically a start of that sequence that helps A.I. properly finish the job
+- the whole thing is just laying down the principles of good test automation patterns, write it in a markdown file and then pass it onto AI to finish the job
+-->
+
+---
+layout: default
+---
+
 # Problem definition and solution identification
 
 <!--
@@ -1050,108 +1146,15 @@ layout: default
 <!--
 - so what this all leads to is a new paradigm for how we do testing, how we plan it and how we execute it
 - here’s your new testing pyramid (actually not a testing pyramid)
-- but a pyramid of impact - impact that your work can have on the the whole business
+- but a pyramid of impact 
+  - 1 line of bad code == 1 line of bad code 
+  - when working with AI, creating workflows and rules 1 line of bad plan might result in 100s of bad code
+  - it’s exponential
+  - but we as testers already know this!!
   - because making plans, defining solutions, reviewing research results, identifying outcomes is something we testers do and is something we are good at
   - this is what makes a difference between A.I. being really dumb, and A.I. being powerful as hell
   - do this with your devs and you are a golden part of your team
   - you’ll learn to properly context engineer, properly set up A.I. agents to do the right thing and you’ll be shipping the highest quality software ever
-  - what’s even better, you can do all this this with your test automation 
--->
-
----
-layout: default
----
-
-# Test automation
-
-<!-- 
-- even though we might be entering era where lots of our software is less deterministic than it used to be, we still write a lot of software that follows basic user stories
-- developers are still writing applications that need test automation
-- that test automation needs to be good and it’s not going to get good by accident
-- it needs to be steered, it needs to be guided
-- as I said, we all have had the experinece of chatgpt or some other AI acting dumb
-- that is not AI’s fault, that is the result of poor engineering
-- and I’m not placing blame on anyone here, we are all new to this stuff we are still learning
-- a great way of building an intuition around A.I. is to start with an AI powered IDE such as Cursor and start creating rules and workflows
--->
-
----
-layout: default
-clicks: 2
----
-
-<div
-v-motion
-  :enter="{ y: 0, scale: 1, x: 0, transition: {
-      type: 'fade'
-    }
-  }"
-  :click-1="{ y: 59, scale: 1.5, x: 220, transition: {
-      type: 'fade'
-    }
-  }"
-  :click-2="{ y: 0, scale: 1, x: 0, transition: {
-      type: 'fade'
-      }
-    }"
-  >
-<img src="/cursor_rules.png" />
-</div>
-
-<style scoped>
-  .slidev-layout {
-    @apply p-0;
-    background-color: #1B1B1B !important;
-  }
-</style>
-
-<!-- 
-- rules are the missing piece of your workflow
-- this is where you apply your test automation knowledge
-- for example, a very simple rule like this for selectors can be created
--->
-
----
-layout: default
-clicks: 3
----
-
-<div
-v-motion
-  :enter="{ y: 0, scale: 1, x: 0, transition: {
-      type: 'fade'
-    }
-  }"
-  :click-1="{ y: 59, scale: 1.5, x: 220, transition: {
-      type: 'fade'
-    }
-  }"
-  :click-2="{ y: 300, scale: 2, x: -490, transition: {
-      type: 'fade'
-      }
-    }"
-  :click-3="{ y: 0, scale: 1, x: 0, transition: {
-      type: 'fade'
-    }
-  }"
-  >
-<img src="/cursor_workflow.png" />
-</div>
-
-
-
-<style scoped>
-  .slidev-layout {
-    @apply p-0;
-    background-color: #1B1B1B !important;
-  }
-</style>
-
-<!-- 
-- but you can take it even further and create whole workflows
-- these help A.I. get it, they will steer it in the right path
-- remember how I explained A.I. with the sequence of numbeers? workflows are basically a start of that sequence that helps A.I. properly finish the job
-- the whole thing is just laying down the principles of good test automation patterns, write it in a markdown file and then pass it onto AI to finish the job
 [take a breath, pause]
 -->
 
