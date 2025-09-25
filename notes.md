@@ -33,3 +33,41 @@ https://engineering.block.xyz/blog/jack-dorseys-vibe-coding-tips
 clarity - explain A.I., agents etc.
 hope - the expertise is needed and testers have lot of skills already
 activation - how to use A.I.
+
+```mermaid
+classDiagram
+    title Managing Context with Sub Agents
+
+    class MainAgent {
+        <<Context>>
+        System Instructions
+        CLAUDE.md
+        Claude Builtin Tools
+        MCP Tools
+        User message
+        <<Tool Calls>>
+        +Tasks()
+        +Read()
+        +Write()
+    }
+
+    class SubAgent {
+        <<Context>>
+        System Instructions
+        CLAUDE.md
+        Claude Builtin Tools
+        MCP Tools
+        User message
+        <<Tool Calls>>
+        +Read()
+        +Search()
+        <<Response>>
+        Assistant Message
+    }
+
+    MainAgent ..> SubAgent : delegates via Tasks()
+
+    note for MainAgent "Delegated task from Tasks():\n'Find where we load the user data from the database\nuse a subagent, and prompt it like this: ...'"
+
+    note for SubAgent "Returns Assistant Message with result:\n'that file is in src/main/...'"
+    ```

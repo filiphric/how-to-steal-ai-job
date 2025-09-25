@@ -7,6 +7,10 @@
     linear-gradient(to right, rgb(from black r g b / 0.05) 1px, transparent 1px),
     linear-gradient(to bottom, rgb(from black r g b / 0.05) 1px, transparent 1px);
 
+  display: grid;
+  justify-items: start;
+  align-content: space-evenly;
+  align-items: start;
 
   h1 + p {
     @apply -mt-2 font-serif text-black;
@@ -64,6 +68,7 @@
   td {
     @apply p-2;
   }
+
 }
 
 .slidev-layout.cover, .slidev-layout.center {
