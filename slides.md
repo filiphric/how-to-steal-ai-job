@@ -254,6 +254,7 @@ title: Karpathy
 - if there was a certificate on chatGPT, it would include watching this video, it’s amazing
 - of course I don’t have 3 hours to explain all this so 
 - I’m going to give you a mental model that I would give to my mom when I explain AI, especially LLMs 
+- explain like to my mom
 -->
 
 ---
@@ -646,6 +647,58 @@ layout: center
 -->
 
 ---
+layout: two-cols-header
+---
+
+# Quality Engineering
+
+::left::
+<Block class="bg-primary text-5xl p-4 relative left-10">
+Vibe
+</Block>
+
+<Arrow x1=270 y1=320 x2=680 y2=320 two-way />
+
+::right::
+<Block class="bg-primary text-5xl p-4 relative left-55">
+Coding
+</Block>
+
+<!-- 
+- by this time you probably hear the term vibe-coding
+- I’ve seen this term being used in many different ways
+- the most simple was is on a scale of "vibe <–-> coding" the more you are on left, the less code you see
+- there are platforms out there - lovable, bolt, base44, replit
+- basically you build an app just by prompting it, you one click deploy etc
+-->
+
+---
+layout: default
+---
+
+# Quality Engineering
+
+<Block class="w-70% mx-auto overflow-y-clip h-[330px]">
+<img src="/nut.png" />
+</Block>
+
+<Block class="absolute right-15 bottom-12 bg-white p-2 z-1">
+  <img src="/qr_nut.png" class="h-20 mt-2">
+<span class="text-xs text-center mx-auto block">nut.new</span>
+</Block>
+
+<!-- 
+- I’m now part of a team that is building a vibe-coding platform
+- it baffles me how none of these platforms write tests
+- AI can do a pretty good job at building web apps, but often times you do one click and the whole thing crashes
+- what we have created is this loop between builder agent and testing and debugging agent, every feature is tested, and if it fails for some reason, we fix it so you end up with a fully functional application - this is the power of tests 
+- this is an area where a knowledge of how to build effective test automation is really valuable
+- if you have spent some time building test automation, you know that you needed to gather a lot of knowledge in order to be able to build effective test automation
+- as A.I. assisted coding and vibe-coding product grow a place of a future tester can be helping out building these products
+
+-->
+
+---
 layout: default
 ---
 
@@ -999,6 +1052,7 @@ layout: default
 - here’s your new testing pyramid (actually not a testing pyramid)
 - but a pyramid of impact - impact that your work can have on the the whole business
   - because making plans, defining solutions, reviewing research results, identifying outcomes is something we testers do and is something we are good at
+  - this is what makes a difference between A.I. being really dumb, and A.I. being powerful as hell
   - do this with your devs and you are a golden part of your team
   - you’ll learn to properly context engineer, properly set up A.I. agents to do the right thing and you’ll be shipping the highest quality software ever
   - what’s even better, you can do all this this with your test automation 
@@ -1019,36 +1073,128 @@ layout: default
 - that is not AI’s fault, that is the result of poor engineering
 - and I’m not placing blame on anyone here, we are all new to this stuff we are still learning
 - a great way of building an intuition around A.I. is to start with an AI powered IDE such as Cursor and start creating rules and workflows
-- these help A.I. get it, they will steer it in the right path
-- remember how I explained A.I. with the sequence of numbeers? rules are basically a start of that sequence that helps A.I. properly finish the job
-- how do the rules look like? You already know all that - you lay down the principles of good test automation patterns, write it in a markdown file and then pass it onto AI to finish the job
 -->
 
 ---
 layout: default
+clicks: 2
 ---
 
-# Quality Engineering
+<div
+v-motion
+  :enter="{ y: 0, scale: 1, x: 0, transition: {
+      type: 'fade'
+    }
+  }"
+  :click-1="{ y: 59, scale: 1.5, x: 220, transition: {
+      type: 'fade'
+    }
+  }"
+  :click-2="{ y: 0, scale: 1, x: 0, transition: {
+      type: 'fade'
+      }
+    }"
+  >
+<img src="/cursor_rules.png" />
+</div>
+
+<style scoped>
+  .slidev-layout {
+    @apply p-0;
+    background-color: #1B1B1B !important;
+  }
+</style>
 
 <!-- 
-- by this time you probably hear the term vibe-coding
-- I’ve seen this term being used in many different ways
-- the most simple was is on a scale of "vibe <–-> coding" the more you are on left, the less code you see
-- there are platforms out there - lovable, bolt, base44, replit
-- I’m part of a team that is building a vibe-coding platform
-- basically you build an app just by prompting it, you one click deploy etc
-- it baffles me how none of these platforms write tests
-- they let AI build their app - and AI can do a pretty good job, but then you do one click and the whole thing crashes
-- what we have created is this loop between builder agent and testing and debugging agent, every feature is tested, and if it fails for some reason, we fix it so you end up with a fully functional application - this is the power of tests 
- 
+- rules are the missing piece of your workflow
+- this is where you apply your test automation knowledge
+- for example, a very simple rule like this for selectors can be created
+-->
+
+---
+layout: default
+clicks: 3
+---
+
+<div
+v-motion
+  :enter="{ y: 0, scale: 1, x: 0, transition: {
+      type: 'fade'
+    }
+  }"
+  :click-1="{ y: 59, scale: 1.5, x: 220, transition: {
+      type: 'fade'
+    }
+  }"
+  :click-2="{ y: 300, scale: 2, x: -490, transition: {
+      type: 'fade'
+      }
+    }"
+  :click-3="{ y: 0, scale: 1, x: 0, transition: {
+      type: 'fade'
+    }
+  }"
+  >
+<img src="/cursor_workflow.png" />
+</div>
+
+
+
+<style scoped>
+  .slidev-layout {
+    @apply p-0;
+    background-color: #1B1B1B !important;
+  }
+</style>
+
+<!-- 
+- but you can take it even further and create whole workflows
+- these help A.I. get it, they will steer it in the right path
+- remember how I explained A.I. with the sequence of numbeers? workflows are basically a start of that sequence that helps A.I. properly finish the job
+- the whole thing is just laying down the principles of good test automation patterns, write it in a markdown file and then pass it onto AI to finish the job
+[take a breath, pause]
 -->
 
 ---
 layout: default
 ---
 
-clarity - hope - activation
+<Block class="px-4 py-2 bg-primary text-5xl font-sans">
+Fear
+</Block>
+<Block class="px-4 py-2 bg-primary text-5xl font-sans">
+Confusion
+</Block>
+<Block class="px-4 py-2 bg-primary text-5xl font-sans">
+Pessimism
+</Block>
 
+<Arrow x1=230 y1=145 x2=710 y2=145 />
+<Block class="px-4 py-2 bg-[#00B6B1] text-5xl font-sans absolute top-27 right-20">
+Hope
+</Block>
+
+<Arrow x1=365 y1=275 x2=680 y2=275 />
+<Block class="px-4 py-2 bg-primary text-5xl font-sans bg-[#00B6B1] text-5xl font-sans absolute top-60 right-20">
+Clarity
+</Block>
+
+<Arrow x1=370 y1=415 x2=600 y2=415 />
+<Block class="px-4 py-2 bg-primary text-5xl font-sans bg-[#00B6B1] text-5xl font-sans absolute top-94 right-20">
+Activation
+</Block>
+
+<!-- 
+- in the summer of 2024, AI took my job and I felt really doubtful
+- I was confused, pessimistic and full of fear
+- but as humans, we usually fear of the unknown
+- for me personally, the journey that made all of these emotions flip from left to right was a journey of learning
+- education, discovery, experimenting, curiosity - these were my tester traits, that kept me going
+- I’m hoping that they will keep you going too
+- I hope that a clear path unveils in the AI mess for you an activates your tester traits
+- there is a future for me, there is a future for you my friends
+
+-->
 
 ---
 layout: cover
@@ -1058,16 +1204,17 @@ layout: cover
 
 <!-- 
 - the truth is, if you want to steal A.I.’s job, it’s not going to happen by replacing A.I.
-- in fact, A.I. did not really replace me, the fact of the matter was that I didn’t know anything about AI and therefore did not have that much of a value for my company
-- but the happy ending was that I was able to take my job back
+- in fact, A.I. did not really replace me
+- in fact what replaced me was that I didn’t know anything about AI and therefore did not have that much of a value for my company
+- but the happy ending for me was that I was able to take my job back
 - after a couple of months break and couple of months of me learning about A.I., Replay took me back, but this time more skilled and more knowledgable in the world of AI
 
 - A.I. is here to stay and we’ll have to learn to live with it
-- your job as a tester is going to transform, and to stay on top, you will have to change with it
+- your job as a tester is going to transform, and to stay on top, you will have to transform with it
 - embrace that world and I’m sure you’ll find a way to enjoy it
 
 - hopefully I was able to show you that there IS a place for people like you and I in the world of AI
-- my advice is that you don’t abandon your test engineering mindset, but expand it with new knowledge
+- my advice is that you don’t abandon your test engineering mindset, but expand it
 
 -->
 
