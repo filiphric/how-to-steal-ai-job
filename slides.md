@@ -72,7 +72,8 @@ title: Laid off
   - we have a mortgage I need to pay, 
   - I just booked a holiday for us, which is a very pricey thing for family of this size
 - I also thought that Replay was a groundbreaking innovation that was absolutely needed in the world
-- I hated the fact that we are giving up on that mission 
+- I hated the fact that we are giving up on that mission
+- so I asked myself - why? 
 -->
 
 ---
@@ -90,7 +91,6 @@ layout: default
 - that was the reason why company decided to pivot
 - it laid off 7 of the 14 engineers, myself included 
 - and has decided to shift the focus to A.I.
-- that’s how it happened, this is how you actually lose your job to A.I. 
 -->
 
 ---
@@ -100,6 +100,7 @@ title: Changing focus to A.I. (part 1)
 
 # Changing focus to A.I.
 <!-- 
+- that’s how it happened, this is how you actually lose your job to A.I. 
 - and I absolutely hated that, I was angry
 - what do you mean AI?
 - here we are, creating this amazing engineering marvel, 
@@ -108,7 +109,7 @@ title: Changing focus to A.I. (part 1)
 - to me this felt like a betrayal of everything I believed in
 - we stopped focusing on testing
 - any maybe you feel like as so many companies do that now
-- and started focusing on AI - ugh! 
+- the companies start focusing on AI - ugh! 
 -->
 
 ---
@@ -318,8 +319,13 @@ layout: default
 title: chatGPT usage
 ---
 
-<Block class="w-90% mx-auto">
+<Block class="w-88%">
 <img src="/chatGPT_usage.jpeg" />
+</Block>
+
+<Block class="absolute right-10 bottom-7 bg-white p-2 z-1">
+  <img src="/qr_chatgpt_usage.png" class="h-20 mt-2">
+<span class="text-xs text-center mx-auto block">source</span>
 </Block>
 
 <!-- 
@@ -373,6 +379,7 @@ layout: default
 
 ---
 layout: default
+clicks: 2
 ---
 
 # Job postings
@@ -393,9 +400,13 @@ layout: default
 - what that means
   - more pressure on companies to be profitable, 
   - VC investors are more careful, which means they invest less
+
+[click]
 - when companies have money, 
   - they can hire more people, ergo we have more job postings, 
   - if they don’t - we have this slide down in job postings
+
+[click]
 - what this means for us as individuals is that 
   - it is harder to find a job, you are expected to work more, ideally for less money, 
   - if you are a junior you’re in trouble, if you are an expensive senior, you might be in trouble too
@@ -420,7 +431,8 @@ title: A.I. transformation (part 1)
 - but many companies have decided to place the bet and shift to AI (the company I worked for included)
 - and some companies saw a real opportunity, while some were pressured down by investors
 - imagine for a moment that you are an investor
-  - If
+  - it’s easy to get angry at investors
+  - some companies became uninvestable
 - but either way, as a result many companies decided to become AI companies
   - in process, some decide to cut staff to make room for this new AI revolution
 -->
@@ -476,7 +488,9 @@ layout: default
 <img src="/amjad.png" class="w-70 absolute right-40 top-65 " v-click/>
 
 <!-- 
-- speaking of whole market, part of what’s changing the landscape is the way how we have been working over the past 5 years [click]
+- speaking of whole market, part of what’s changing the landscape is the way how we have been working over the past 5 years
+
+[click]
 - pandemic has changed how we work, we now have hybrid and remote teams
 - and many companies have realized that they can work more effectively with less people
 - e.g. Bluesky or Linear 150 ppl seem to be successful, Cursor has just around 180 employees
@@ -502,6 +516,7 @@ layout: default
 [click]
 - CEO of Replit Amjad Masad said that you shouldn’t even learn to code
 - these claims are of course overblown, because these CEOs are trying to sell you something
+- you might be a bit annoyed by this
 - what annoys me personally, is that these claims have no actionable insight in them - ok you’re A.I. is going to write our code, now what?
 -->
 
@@ -528,7 +543,7 @@ layout: two-cols-header
 
 <!-- 
 - there are luckily examples of good practice
-- there are companiesthat **know** that AI is the future, they are pushing their engineers to become AI fluent
+- there are companies that **know** that AI is the future, they are pushing their engineers to become AI fluent
 - a great example is shopify
   - cursor being used outside of engineering finance, sales, support - using cursor
   - building MCPs
@@ -537,8 +552,8 @@ layout: two-cols-header
   - scaled MCP to 12k employees in two months
   - they installed their client called goose on everyone’s laptop
   - they are using whitelist and provisioning processes for installing new MCPs
-  - they are holsinf weekly sessions, workshops, office hours to share knowledge across the company
-- I think this is truly inspiring and we need more of that
+  - they are hosting weekly sessions, workshops, office hours to share knowledge across the company
+- I think this is truly inspiring and I think **we need more of that**
 - and it’s not just me saying this
 
 -->
@@ -608,8 +623,8 @@ layout: default
 <!-- 
 - there’s something called the highlight reel effect
 - it’s this sense of falsified reality - a feeling that everyone else is living happy and perfect life
-- when in reality, we only see what people want to show and edit all the bad stuff
-- it’s like that friend from high school that spent fridays drinking and now somehow owns Tesla
+- when in reality, we **only see what people want to show** and edit all the bad stuff
+- you are showered with all the positive
 - but our brains don’t seem to process that too well and make us feel like we are missing out
 - same thing might be happening to us in relation to AI and the speed of it’s development
 - we are seeing how AI is doing crazier and crazier stuff every day
@@ -629,8 +644,9 @@ layout: statement
 - but jumping from AI hype to AI hype is just not healthy
 - you’ll get overwhelmed and it will be hard to learn anything
 - I still think you should learn and keep an eye on the general trends
-- experiment with what interests you and find your way
-- but what is your way?
+- experiment with what interests you and find **your way**
+- but what actually is **your way?**
+- let’s discuss that
 -->
 
 ---
@@ -644,6 +660,33 @@ layout: center
 - because there are different kinds of testing and different kinds of testers
 - everyone posseses skills that can be multiplied by AI
 - so let’s take a look at those skills, and why they matter
+-->
+
+---
+layout: default
+---
+
+# Quality Engineering
+
+<Block class="w-60% mx-auto">
+<img src="/karpathy_tweet.png" />
+</Block>
+
+<span v-mark="{ color: '#F48487', type: 'underline' }" class="text-4xl absolute right-87 bottom-28 w-50"></span>
+<span v-mark="{ color: '#F48487', type: 'underline' }" class="text-4xl absolute right-77 bottom-23 w-33"></span>
+
+<!-- 
+- by this time you probably hear the term vibe-coding
+- Andrej Karpathy used this term back in February and it basically exploded
+- I’ve seen this term being used in many different ways
+- some people use the term vibe-coding for any type of coding that uses A.I.
+- in the original tweet Andrej actually states that 
+
+[click]
+- it’s mostly for throwaway weekend projects
+
+[click]
+- it’s not really coding
 -->
 
 ---
@@ -665,9 +708,8 @@ Coding
 </Block>
 
 <!-- 
-- by this time you probably hear the term vibe-coding
-- I’ve seen this term being used in many different ways
 - the most simple was is on a scale of "vibe <–-> coding" the more you are on left, the less code you see
+- but the idea is still very powerful, because with A.I. you can bring the idea of building products to people that don’t know how to code
 - there are platforms out there - lovable, bolt, base44, replit
 - basically you build an app just by prompting it, you one click deploy etc
 -->
@@ -711,6 +753,7 @@ layout: default
 - what’s happening now is that software is becoming less deterministic and more goal oriented
 - if you put the same prompt into chatgpt, you’re not getting the same response no matter how hard you try
 - if you are testing a chatbot, you’re not going to be successful with selenium playwrgiht cypress, webdriverio or any test automation tool for that matter
+- so what do you do then?
 - anthropic actually has a really good explanations on how to test ai responses
 - they more often referred to as evals
 -->
@@ -800,8 +843,10 @@ print(f"Average Tone Score: {sum(tone_scores) / len(tone_scores)}")
 </style>
 
 <!--
+- let’s say you want to test a chatbot
 - here’s how you would test that your chatbot is working as expected
 - we will be testing for a tone of the response, so if user is frustrated, the chatbot needs to be empathetic
+- this is a python code, but don’t worry, I’m not using python, it is pretty simple, I’ll walk you through it
 
 [click]
 
@@ -839,6 +884,7 @@ print(f"Average Tone Score: {sum(tone_scores) / len(tone_scores)}")
 
 ---
 layout: default
+clicks: 0
 ---
 
 # Security assesment
@@ -1059,7 +1105,7 @@ layout: default
 
 # Context engineering
 
-*"The art of providing all the context for the task to be <span v-mark="{ at: 0, color: '#F48487', type: 'underline' }">plausibly</span> solvable by the LLM.”
+*"The art of providing all the context for the task to be <span v-mark="{ color: '#F48487', type: 'underline' }">plausibly</span> solvable by the LLM.”
 – Tobi Lütke, CEO of Shopify*
 
 <!--
@@ -1098,7 +1144,7 @@ layout: default
   <img src="/context_engineering_part_1.png" />
 </Block>
 
-<Block class="w-48.5% px-2 bg-white absolute top-5 right-55">
+<Block class="w-48.5% px-2 bg-white absolute top-5 right-55" v-click>
   <img src="/context_engineering_part_2.png" />
 </Block>
 
@@ -1159,6 +1205,26 @@ layout: default
 -->
 
 ---
+layout: statement
+---
+
+# A.I. stole my job
+## ...but I took my job back{v-click}
+
+<!-- 
+- in summer of 2024, A.I. took my job
+- the truth is, if you want to steal A.I.’s job, it’s not going to happen by replacing A.I., it is here to stay
+- the best we can do with this it learn as much as we can, to better ourselves, upskill and at the same time, keep our humanity
+- in fact, A.I. did not really replace me
+- I was let go, because I didn’t know anything about AI and therefore did not have that much of a value for my company
+- but this story has a happy ending 
+[click]
+  
+- for me was that I was able to take my job back
+- after a couple of months break and couple of months of me learning about A.I., Replay took me back, but this time more skilled and more knowledgable in the world of AI
+-->
+
+---
 layout: default
 ---
 
@@ -1188,37 +1254,21 @@ Activation
 </Block>
 
 <!-- 
-- in the summer of 2024, AI took my job and I felt really doubtful
-- I was confused, pessimistic and full of fear
+- at the begining of my journey, I was confused, pessimistic and full of fear
 - but as humans, we usually fear of the unknown
 - for me personally, the journey that made all of these emotions flip from left to right was a journey of learning
 - education, discovery, experimenting, curiosity - these were my tester traits, that kept me going
 - I’m hoping that they will keep you going too
-- I hope that a clear path unveils in the AI mess for you an activates your tester traits
-- there is a future for me, there is a future for you my friends
-
--->
-
----
-layout: cover
----
-
-# Stealing A.I.’s job
-
-<!-- 
-- the truth is, if you want to steal A.I.’s job, it’s not going to happen by replacing A.I.
-- in fact, A.I. did not really replace me
-- in fact what replaced me was that I didn’t know anything about AI and therefore did not have that much of a value for my company
-- but the happy ending for me was that I was able to take my job back
-- after a couple of months break and couple of months of me learning about A.I., Replay took me back, but this time more skilled and more knowledgable in the world of AI
 
 - A.I. is here to stay and we’ll have to learn to live with it
 - your job as a tester is going to transform, and to stay on top, you will have to transform with it
 - embrace that world and I’m sure you’ll find a way to enjoy it
 
 - hopefully I was able to show you that there IS a place for people like you and I in the world of AI
-- my advice is that you don’t abandon your test engineering mindset, but expand it
+- my advice is that you don’t abandon your test engineering mindset, it’s the best thing you do
+- instead expand it with new knowledge
 
+- there is a future for me, there is a future for you my friends
 -->
 
 ---

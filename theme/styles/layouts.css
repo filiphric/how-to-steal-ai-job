@@ -116,7 +116,9 @@
   @apply text-center grid h-full;
 
   h1 {
-    @apply text-6xl font-700;
+    @apply text-6xl bg-primary py-3 px-4 border-2 border-black custom-block font-extrabold inline-block mt-16; 
+    box-shadow: 4px 4px 0 0 black;
+    margin-bottom: 1.5rem;
   }
 }
 .slidev-layout.quote {
