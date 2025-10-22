@@ -1277,7 +1277,12 @@ layout: cover
 
 # Thank you
 
+<Block class="absolute right-15 top-13 bg-white p-2 z-1">
+  <img src="/qr_links.png" class="h-20 mt-2">
+  <span class="text-xs text-center mx-auto block">let’s connect</span>
+</Block>
+
 <Block class="absolute right-15 bottom-13 bg-white p-2 z-1">
   <img src="/qr_slides.png" class="h-20 mt-2">
-<span class="text-xs text-center mx-auto block">slides</span>
+  <span class="text-xs text-center mx-auto block">slides</span>
 </Block>
